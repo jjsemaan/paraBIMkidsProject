@@ -22,27 +22,20 @@
         </div>
     </header>
     <nav>
-        <div class="topnav-left">
-            <a href="#about">ABOUT</a>
-            <a href="contact.html">CONTACT</a>
-            <a href="events.html">EVENTS</a>
-            <a href="index.html" class="active">HOME</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
-            </a>
-        </div>
-        <div class="topnav-right">
-            <a href="index.html" class="active">HOME</a>
-            <a href="events.html">EVENTS</a>
-            <a href="contact.html">CONTACT</a>
-            <a href="#about">ABOUT</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
-            </a>
+        <div>
+            <div class="topnav">
+                <a href="index.html" class="active">HOME</a>
+                <a href="events.html">EVENTS</a>
+                <a href="contact.html">CONTACT</a>
+                <a href="#about">ABOUT</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
         </div>
     </nav>
     <section>
-        <div> <img src="/assets/images/TeacherKidsSquare.png" alt=""></div>
+        <!--<div> <img src="/assets/images/TeacherKidsSquare.png" alt=""></div>-->
     </section>
 </body>
 <!--Font Awesome for web icons; 
@@ -53,13 +46,13 @@
     'https://www.w3schools.com/howto/howto_js_topnav_responsive.asp'-->
 <script>
     function myFunction() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-            x.className += " responsive";
-        } else {
-            x.className = "topnav";
-        }
-    }
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
 </script>
 
 </html>
