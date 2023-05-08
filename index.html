@@ -1,12 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="After school kids coding club in Dublin, Ireland">
+    <meta name="keywords" content="coding club, after school, coding, Dublin, Ireland">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" type="image/x-icon" href="assets/images/PBfavi.png">
+    <title>ParaBIM-Kids</title>
 </head>
+
 <body>
-    
+    <header>
+        <div class="logo-bg">
+            <a href="index.html">
+                <h1 id="logo">ParaBIM Kids</h1>
+            </a>
+        </div>
+    </header>
+    <nav>
+        <div class="topnav">
+            <a href="index.html" class="active">HOME</a>
+            <a href="events.html">EVENTS</a>
+            <a href="contact.html">CONTACT</a>
+            <a href="#about">ABOUT</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </nav>
+    <section>
+        <div> <img src="/assets/images/TeacherKidsSquare.png" alt=""></div>
+    </section>
 </body>
+<!--Font Awesome for web icons; 
+    keep this script at the bottom of the html code to speed up the loading time for this website-->
+<script src="https://kit.fontawesome.com/5cf801ac8f.js" crossorigin="anonymous"></script>
+
+<!--Js function to control the responsive menu imported from W3Schools,
+    'https://www.w3schools.com/howto/howto_js_topnav_responsive.asp'-->
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
+
 </html>
