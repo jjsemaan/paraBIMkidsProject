@@ -109,6 +109,9 @@ body {
     }
 }
 
+/* main kids image in two versions; changes depending on screen size. 
+    source: Microsoft Designer Tool https: //designer.microsoft.com */
+    
 #main-imageContainer {
   height: 90vh;
   width: 100%;
