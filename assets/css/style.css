@@ -36,6 +36,15 @@ body {
     word-wrap: normal;
 }
 
+/* footer */
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
 /*target list items and align them horizontally*/
 .social-networks li {
     display: inline;
@@ -155,5 +164,70 @@ body {
 
     #kids-imageSquare {
         display: none;
+    }
+}
+
+/* footer */
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+/*target list items and align them horizontally*/
+.social-networks li {
+    display: inline;
+}
+
+/*target the icons to move them apart horizontally*/
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
+/** {
+    box-sizing: border-box;
+}*/
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    height: 300px;
+    box-sizing: border-box;
+    border-right: 1px solid #ccc;
+    background-color: rgba(73, 73, 73, 0.75);
+}
+
+.column:last-child {
+    border-right: none;
+}
+
+/* Clear floats after the columns */
+.row {
+    position: relative;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the four columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .column {
+        width: 50%;
+        border-right: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+    }
+    
+    .column:last-child {
+        border-right: none;
     }
 }
