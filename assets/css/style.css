@@ -135,7 +135,7 @@ footer {
     source: Microsoft Designer Tool https: //designer.microsoft.com */
 
 #main-imageContainer {
-  height: 90vh;
+  height: 480px;
   width: 100%;
   overflow: hidden;
   position: relative;
@@ -193,12 +193,33 @@ footer {
     box-sizing: border-box;
 }*/
 
+
+
+/* Clear floats after the columns */
+#main-imageContainer > div {
+    position: absolute;
+}
+
+.row {
+    /*position: absolute;*/
+    /*top: 0;*/
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: auto;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 /* Create four equal columns that floats next to each other */
 .column {
     float: left;
     width: 25%;
-    padding: 10px;
-    height: 300px;
+    height: 100px;
     box-sizing: border-box;
     border-right: 1px solid #ccc;
     background-color: rgba(73, 73, 73, 0.75);
@@ -206,17 +227,6 @@ footer {
 
 .column:last-child {
     border-right: none;
-}
-
-/* Clear floats after the columns */
-.row {
-    position: relative;
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
 }
 
 /* Responsive layout - makes the four columns stack on top of each other instead of next to each other */
@@ -229,5 +239,11 @@ footer {
     
     .column:last-child {
         border-right: none;
+        border-bottom: none;
+    }
+}
+@media screen and (min-width: 800px) {
+    .row {
+            bottom: 0;
     }
 }
