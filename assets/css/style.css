@@ -116,8 +116,28 @@ body {
   position: relative;
 }
 
-#kids-imageSquare {
+#kids-imageSquare, #kids-imageLandscape {
   max-width: 100%;
-  width: auto;
+  width: 100%;
   position: absolute;
+}
+
+@media (max-width: 800px) {
+    #kids-imageSquare {
+        content: url('/assets/images/TeacherKidsSquare.png');
+    }
+        
+    #kids-imageLandscape {
+        display: none;
+    }
+}
+
+@media (min-width: 801px) {
+    #kids-imageLandscape {
+        content: url('/assets/images/TeacherKidsLandscape.png');
+    }
+
+    #kids-imageSquare {
+        display: none;
+    }
 }
