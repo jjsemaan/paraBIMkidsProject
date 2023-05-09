@@ -42,7 +42,10 @@
         </div>
     </nav>
     <section>
-        <!--<div> <img src="/assets/images/TeacherKidsSquare.png" alt=""></div>-->
+        <div id="main-imageContainer">
+            <img id="kids-imageSquare" srcset="/assets/images/TeacherKidsSquare.png" alt="" media="(max-width: 800px)">
+            <!--img id="kids-imageSquare" srcset="/assets/images/TeacherKidsLandscape.png" alt="" media="(max-width: 1500px)"-->
+        </div>
     </section>
 </body>
 <!--Font Awesome for web icons; 
@@ -53,13 +56,13 @@
     'https://www.w3schools.com/howto/howto_js_topnav_responsive.asp'-->
 <script>
     function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav-burger") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav-burger";
-  }
-}
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav-burger") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav-burger";
+        }
+    }
 </script>
 
 </html>
