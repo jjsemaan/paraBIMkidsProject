@@ -149,7 +149,7 @@ footer {
   position: absolute;
 }
 
-@media (max-width: 920px) {
+@media (max-width: 535px) {
     #kids-imageSquare {
         content: url('/assets/images/TeacherKidsSquare.png');
     }
@@ -159,7 +159,7 @@ footer {
     }
 }
 
-@media (min-width: 921px) {
+@media (min-width: 535px) {
     #kids-imageLandscape {
         content: url('/assets/images/TeacherKidsLandscape.png');
     }
