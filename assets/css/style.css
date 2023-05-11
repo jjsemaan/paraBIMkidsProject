@@ -36,18 +36,6 @@ body {
     word-wrap: normal;
 }
 
-/*target list items and align them horizontally*/
-.social-networks li {
-    display: inline;
-}
-
-/*target the icons to move them apart horizontally*/
-.social-networks i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: #3a3a3a;
-}
 
 /* responsive navigation with burger for screens of 600px and lower; 
     source: https: //www.w3schools.com/howto/tryit.asp?filename=tryhow_js_topnav */
@@ -125,23 +113,26 @@ body {
 /* main kids image in two versions; changes depending on screen size. 
     source: Microsoft Designer Tool https: //designer.microsoft.com */
 
-#main-imageContainer {
-  height: 720px;
+#kids-imageLandscape {
   width: 100%;
   overflow: hidden;
   position: relative;
+  background: url('../images/TeacherKidsLandscape.png') no-repeat center center;
+  background-size: cover;
+  overflow: hidden;
 }
 
-
-
-/*#kids-imageSquare,*/ 
-#kids-imageLandscape {
-  max-width: 100%;
-  width: 100%;
-  position: absolute;
+#kids-imageSquare {
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background: url('../images/TeacherKidsSquare.png') no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
 }
 
-/*@media (max-width: 535px) {
+@media screen and (max-width: 800px) {
     #kids-imageSquare {
         content: url('/assets/images/TeacherKidsSquare.png');
     }
@@ -149,9 +140,9 @@ body {
     #kids-imageLandscape {
         display: none;
     }
-}*/
+}
 
-/*@media (min-width: 535px) {
+@media screen and (min-width: 800px) {
     #kids-imageLandscape {
         content: url('/assets/images/TeacherKidsLandscape.png');
     }
@@ -159,7 +150,7 @@ body {
     #kids-imageSquare {
         display: none;
     }
-}*/
+}
 
 /* Clear floats after the columns 
 #main-imageContainer > div {
@@ -168,10 +159,12 @@ body {
 
 /* courses list*/
 .row {
-    position: absolute;
+    position: relative;
+    top: 0;
     bottom: 0;
     left: 0;
     width: 100%;
+    margin-top: 0;
 }
 
 .row:after {
@@ -223,11 +216,11 @@ body {
         border-bottom: none;
     }
 }
-@media screen and (min-width: 800px) {
+/*@media screen and (min-width: 800px) {
     .row {
-            bottom: 0;
+            top: 0;
     }
-}
+}*/
 
 /* footer */
 footer {
