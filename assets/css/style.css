@@ -36,15 +36,6 @@ body {
     word-wrap: normal;
 }
 
-/* footer */
-footer {
-    height: 150px;
-}
-
-.social-networks {
-    text-align: center;
-}
-
 /*target list items and align them horizontally*/
 .social-networks li {
     display: inline;
@@ -135,7 +126,7 @@ footer {
     source: Microsoft Designer Tool https: //designer.microsoft.com */
 
 #main-imageContainer {
-  height: 480px;
+  height: 720px;
   width: 100%;
   overflow: hidden;
   position: relative;
@@ -143,13 +134,14 @@ footer {
 
 
 
-#kids-imageSquare, #kids-imageLandscape {
+/*#kids-imageSquare,*/ 
+#kids-imageLandscape {
   max-width: 100%;
   width: 100%;
   position: absolute;
 }
 
-@media (max-width: 535px) {
+/*@media (max-width: 535px) {
     #kids-imageSquare {
         content: url('/assets/images/TeacherKidsSquare.png');
     }
@@ -157,9 +149,9 @@ footer {
     #kids-imageLandscape {
         display: none;
     }
-}
+}*/
 
-@media (min-width: 535px) {
+/*@media (min-width: 535px) {
     #kids-imageLandscape {
         content: url('/assets/images/TeacherKidsLandscape.png');
     }
@@ -167,13 +159,14 @@ footer {
     #kids-imageSquare {
         display: none;
     }
-}
+}*/
 
 /* Clear floats after the columns 
 #main-imageContainer > div {
     position: absolute;
 }*/
 
+/* courses list*/
 .row {
     position: absolute;
     bottom: 0;
@@ -241,6 +234,7 @@ footer {
     height: 150px;
 }
 
+/* social media */
 .social-networks {
     text-align: center;
 }
