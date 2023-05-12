@@ -163,7 +163,7 @@ body {
     bottom: 0;
     left: 0;
     width: 100%;
-    margin-top: 0;
+
 }
 
 .row:after {
@@ -177,8 +177,8 @@ body {
     position: relative;
     float: left;
     width: 25%;
-    height: 120px;
-    border-right: 1px solid #ccc;
+    height: 90px;
+    border-right: 2px solid #ccc;
     background-color: #04AA6D
         /*rgba(73, 73, 73, 0.75);*/
 }
@@ -191,33 +191,35 @@ body {
     font-family: 'Roboto Mono', sans-serif;
     font-weight: 200;
     color: #fff;
-    margin: 20px 0;
+    margin: 10px 0;
     text-align: center;
-    font-size: 17px;
+    font-size: 100%;
 }
 
-.column p {
+/* kept for future use */
+/*.column p {
     color: #fff;
     margin: 0;
     padding-bottom: 20px;
     line-height: 0;
     text-align: center;
     font-size: 10px;
-}
+}*/
 
 .column i {
     position: absolute;
-    top: 50px;
+    top: 35px;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 50px;
+    font-size: 200%;
 }
 
-.icon-color, .column > h2 {
+.icon-color,
+.column>h2 {
     color: #212121;
 }
 
-.row :hover {
+.column :hover {
     color: #ffffff;
     cursor: pointer;
 }
@@ -226,19 +228,20 @@ body {
 @media screen and (max-width: 800px) {
     .column {
         width: 50%;
-        border-right: 1px solid #ccc;
-        border-bottom: 1px solid #ccc;
+        border-right: 2px solid #ccc;
+        border-bottom: 2px solid #ccc;
     }
 
     .column:last-child {
         border-right: none;
-        border-bottom: none;
+        border-bottom: 2px solid #ccc;
     }
 }
 
 /* footer */
 footer {
-    height: 150px;
+    height: 50px;
+    background-color: #212121;
 }
 
 /* social media */
@@ -253,8 +256,8 @@ footer {
 
 /*target the icons to move them apart horizontally*/
 .social-networks i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: #3a3a3a;
+    font-size: 140%;
+    margin: 0;
+    padding: 12px;
+    color: #04AA6D;
 }
