@@ -174,17 +174,13 @@ body {
 
 /* Create four equal columns that floats next to each other */
 .column {
+    position: relative;
     float: left;
     width: 25%;
-    height: 100px;
+    height: 120px;
     border-right: 1px solid #ccc;
     background-color: #04AA6D
         /*rgba(73, 73, 73, 0.75);*/
-}
-
-.row :hover, .column :hover {
-    background-color: #ddd;
-    color: black;
 }
 
 .column:last-child {
@@ -192,10 +188,12 @@ body {
 }
 
 .column h2 {
+    font-family: 'Roboto Mono', sans-serif;
+    font-weight: 200;
     color: #fff;
     margin: 20px 0;
     text-align: center;
-    font-size: 15px;
+    font-size: 17px;
 }
 
 .column p {
@@ -205,6 +203,23 @@ body {
     line-height: 0;
     text-align: center;
     font-size: 10px;
+}
+
+.column i {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 50px;
+}
+
+.icon-color, .column > h2 {
+    color: #212121;
+}
+
+.row :hover {
+    color: #ffffff;
+    cursor: pointer;
 }
 
 /* Responsive layout - makes the four columns stack on top of each other instead of next to each other */
