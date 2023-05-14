@@ -200,16 +200,6 @@ a {
     font-size: 100%;
 }
 
-/* kept for future use */
-/*.column p {
-    color: #fff;
-    margin: 0;
-    padding-bottom: 20px;
-    line-height: 0;
-    text-align: center;
-    font-size: 10px;
-}*/
-
 .column i {
     position: absolute;
     top: 35px;
@@ -244,6 +234,25 @@ a {
     .column:nth-child(2) {
         border-right: none;
     }
+}
+
+/* joining club reasons*/
+
+.reasons {
+    max-width: 100%;
+    margin: 25px 25px;
+    text-align: center;
+}
+
+.joining-reasons {
+    background-color: #d8d8d8;
+    max-width: 100%;
+    font-size: 120%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #3a3a3a;
+    padding: 15px 25px;
+    margin-top: 2px;
 }
 
 /* social media */
