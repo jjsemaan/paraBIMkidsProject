@@ -247,7 +247,7 @@ a {
 .joining-reasons p {
     background-color: #d8d8d8;
     max-width: 100%;
-    font-size: 100%;
+    font-size: 120%;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     color: #3a3a3a;
@@ -256,7 +256,7 @@ a {
 }
 
 /* styles for the enroll / more info buttons */
-.joining-reasons button {
+.enroll-button {
     background-color: #04AA6D;
     color: white;
     text-transform: capitalize;
@@ -266,22 +266,58 @@ a {
     margin-right: 10px;
     margin-bottom: 10px;
     cursor: pointer;
+    border-radius: 5px;
+}
+
+.info-button {
+    background-color: #fbfcfb;
+    color: rgb(0, 0, 0);
+    text-transform: capitalize;
+    text-decoration: none;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
 }
 
 /* hover styles for enroll / more info buttons */
-.joining-reasons button:hover {
-    background-color: #ddd;
+.enroll-button:hover, .info-button:hover {
+    background-color: #ffffff;
     color: black;
+}
+
+/* center enroll / more info buttons */
+.enroll-button-container {
+    background-color: #d8d8d8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 2px;
+}
+
+.more-info-container {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 /* media query for smaller screens of enroll / more info buttons*/
 @media screen and (max-width: 800px) {
 
-    /* Stack the buttons on top of each other */
-    .joining-reasons button {
+    /* stack the enroll / info buttons on top of each other */
+    .enroll-button, .info-button {
         display: block;
         width: 100%;
         margin-right: 0;
+        border-radius: 0;
+    }
+
+    /*make font size smaller for reasons to join us */
+    .joining-reasons p {
+        font-size: 100%;
     }
 }
 
@@ -305,7 +341,7 @@ a {
     color: #04AA6D;
 }
 
-/*copyright footer*/
+/* copyright footer */
 #footer-copyright {
     position: relative;
     bottom: 0;
@@ -313,13 +349,14 @@ a {
     height: 20px;
     background-color: #eaeaea;
     margin: 0 auto;
-    padding-top: 1px;
-    
+    padding-top: 2px;
 }
 
 #footer-copyright p {
-    font-size: 70%;
+    font-size: 75%;
     text-align: center;
     color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
 }
 
