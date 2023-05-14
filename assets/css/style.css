@@ -272,8 +272,7 @@ a {
 .info-button {
     background-color: #fbfcfb;
     color: rgb(0, 0, 0);
-    text-transform: capitalize;
-    text-decoration: none;
+    text-decoration: underline;
     border: none;
     padding: 10px 20px;
     margin-right: 10px;
@@ -310,9 +309,9 @@ a {
     /* stack the enroll / info buttons on top of each other */
     .enroll-button, .info-button {
         display: block;
-        width: 100%;
+        width: 50%;
         margin-right: 0;
-        border-radius: 0;
+        border-radius: 5px;
     }
 
     /*make font size smaller for reasons to join us */
