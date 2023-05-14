@@ -293,6 +293,7 @@ a {
     align-items: center;
     flex-wrap: wrap;
     margin-bottom: 2px;
+    max-width: 100%;
 }
 
 .more-info-container {
@@ -301,6 +302,7 @@ a {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    max-width: 100%;
 }
 
 /* media query for smaller screens of enroll / more info buttons*/
@@ -359,3 +361,13 @@ a {
     letter-spacing: 2px;
 }
 
+@media screen and (max-width:300px) {
+    
+    #footer-copyright p {
+            font-size: 60%;
+            text-align: center;
+            color: rgb(0, 0, 0);
+            font-family: 'Montserrat', sans-serif;
+            letter-spacing: 1px;
+        }
+}
