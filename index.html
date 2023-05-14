@@ -132,12 +132,14 @@
 <script>
     function myFunction() {
         var x = document.getElementById("myTopnav");
+        var y = document.getElementById("slogan-text");
         if (x.className === "topnav-burger") {
             x.className += " responsive";
+            y.style.display = "none";
         } else {
             x.className = "topnav-burger";
+            y.style.display = "block";
         }
     }
 </script>
-
 </html>
