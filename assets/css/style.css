@@ -215,7 +215,7 @@ body {
 }
 
 .icon-color,
-.column>h2 {
+.column > h2 {
     color: #212121;
 }
 
@@ -260,4 +260,22 @@ footer {
     margin: 0;
     padding: 12px;
     color: #04AA6D;
+}
+
+/*copyright footer*/
+#footer-copyright {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 30px;
+    background-color: #636363;
+    padding: 5px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#footer-copyright p {
+    font-size: 100%;
+    text-align: center;
+    color: rgb(0, 0, 0);
 }
