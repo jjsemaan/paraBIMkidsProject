@@ -244,15 +244,45 @@ a {
     text-align: center;
 }
 
-.joining-reasons {
+.joining-reasons p {
     background-color: #d8d8d8;
     max-width: 100%;
-    font-size: 120%;
+    font-size: 100%;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     color: #3a3a3a;
     padding: 15px 25px;
-    margin-top: 2px;
+    text-align: center;
+}
+
+/* styles for the enroll / more info buttons */
+.joining-reasons button {
+    background-color: #04AA6D;
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+/* hover styles for enroll / more info buttons */
+.joining-reasons button:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* media query for smaller screens of enroll / more info buttons*/
+@media screen and (max-width: 800px) {
+
+    /* Stack the buttons on top of each other */
+    .joining-reasons button {
+        display: block;
+        width: 100%;
+        margin-right: 0;
+    }
 }
 
 /* social media */
