@@ -149,9 +149,44 @@ a {
     #kids-imageLandscape {
         display: none;
     }
+
+    #slogan-text {
+        font-size: 90%;
+        font-family: 'Roboto Mono', sans-serif;
+        text-transform: uppercase;
+
+        width: 300px;
+        height: 160px;
+
+        padding: 20px 10px;
+
+        background-color: rgba(246, 246, 246, 0.8);
+        /*border-end-end-radius: 50px;*/
+        border-radius: 25px;
+
+        position: absolute;
+        float: left;
+        top: 75px;
+        left: 20px;
+
+        z-index: 1;
+    }
+
+    #slogan-text h2 {
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 90%;
+        padding-left: 10px;
+    }
+
+    #slogan-text p {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 801px) {
     #kids-imageLandscape {
         content: url('../images/kidsWide.png');
     }
@@ -178,8 +213,10 @@ a {
 
     position: absolute;
     float: left;
-    bottom: 200px;
-    left: 100px;
+    top: 150px;
+    left: 40px;
+
+    z-index: 1;
 }
 
 #slogan-text h2 {
