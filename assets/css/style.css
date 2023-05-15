@@ -247,7 +247,7 @@ a {
     padding-right: 10px;
 }
 
-/* courses list*/
+/* modules list*/
 .row {
     position: relative;
     bottom: 0;
@@ -456,3 +456,62 @@ a {
             letter-spacing: 1px;
         }
 }
+
+/* Modules page modules icons in-line*/
+/* Create four equal columns that floats next to each other */
+.mod-column {
+    position: relative;
+    float: left;
+    width: 25%;
+    height: 350px;
+    border-right: 2px solid rgb(255, 255, 255);
+    background-color: #dedede
+}
+
+.mod-column:last-child {
+    border-right: none;
+}
+
+.mod-column h2 {
+    font-family: 'Roboto Mono', sans-serif;
+    font-weight: 200;
+    color: #212121;
+    margin: 10px 0;
+    text-align: center;
+    font-size: 100%;
+}
+
+.mod-column p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #212121;
+    margin: 50px 40px;
+    text-align: justify;
+    font-size: 100%;
+}
+
+.mod-column i {
+    position: absolute;
+    top: 35px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 200%;
+}
+
+.mod-column>h2 {
+    color: #212121;
+}
+
+
+/* Responsive layout - makes the four columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .mod-column {
+        width: 100%;
+        border-bottom: 2px solid rgb(255, 255, 255);
+        border-right: none;
+        }
+        
+        .column:last-child {
+            border-bottom: 2px solid rgb(255, 255, 255);
+        }
+    }
