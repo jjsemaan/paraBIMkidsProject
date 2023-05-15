@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="After school kids coding club in Dublin, Ireland">
+    <meta name="keywords" content="coding club, after school, coding, Dublin, Ireland">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" type="image/x-icon" href="assets/images/PBfavi.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>ParaBIM-Kids</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo-bg">
+            <a href="index.html">
+                <h1 id="logo">ParaBIM Kids</h1>
+            </a>
+        </div>
+    </header>
+    <nav>
+        <div>
+            <div class="topnav">
+                <a href="contact.html">CONTACT</a>
+                <a href="modules.html" class="active">MODULES</a>
+                <a href="index.html">HOME</a>
+            </div>
+            <div class="topnav-burger" id="myTopnav">
+                <a href="index.html">HOME</a>
+                <a href="modules.html" class="active">MODULES</a>
+                <a href="contact.html">CONTACT</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="social-networks">
+        <ul>
+            <li>
+                <a href="https://facebook.com" target="_blank" rel="noopener"
+                    aria-label="visit our facebook page (opens up in new tab)"><i
+                        class="fab fa-facebook-square"></i></a>
+            </li>
+            <li>
+                <a href="https://twitter.com" target="_blank" rel="noopener"
+                    aria-label="visit our twitter page (opens up in new tab)"><i class="fab fa-twitter-square"></i></a>
+            </li>
+            <li>
+                <a href="https://youtube.com" target="_blank" rel="noopener"
+                    aria-label="visit our youtube channel (opens up in new tab)"><i
+                        class="fab fa-youtube-square"></i></a>
+            </li>
+            <li>
+                <a href="https://instagram.com" target="_blank" rel="noopener"
+                    aria-label="visit our instagram page (opens up in new tab)"><i
+                        class="fab fa-instagram-square"></i></a>
+            </li>
+            <li>
+                <a href="#logo" aria-label="scroll to top">
+                    <i class="fas fa-angle-double-up"></i>
+                </a>
+                </button>
+            </li>
+        </ul>
+    </section>
+    <footer>
+        <div id="footer-copyright">
+            <p>&copy; ParaBIM Kids 2023 | <a href="https://parabim.com" target="_blank" rel="noopener"
+                    aria-label="visit ParaBIM Ltd. website (opens up in new tab)"><strong>ParaBIM Ltd.</strong></a>
+                Ireland</p>
+
+        </div>
+    </footer>
+</body>
+<!--Font Awesome for web icons; 
+    keep this script at the bottom of the html code to speed up the loading time for this website-->
+<script src="https://kit.fontawesome.com/5cf801ac8f.js" crossorigin="anonymous"></script>
+
+<!--Js function to control the responsive menu imported from W3Schools,
+    'https://www.w3schools.com/howto/howto_js_topnav_responsive.asp'-->
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        var y = document.getElementById("slogan-text");
+        if (x.className === "topnav-burger") {
+            x.className += " responsive";
+            y.style.display = "none";
+        } else {
+            x.className = "topnav-burger";
+            y.style.display = "block";
+        }
+    }
+</script>
+
+</html>
