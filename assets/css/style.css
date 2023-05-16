@@ -353,6 +353,20 @@ a {
     cursor: pointer;
     border-radius: 5px;
     text-align: center;
+}
+
+.mod-enroll-button {
+    background-color: #04AA6D;
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
     position: absolute;
     bottom: 0;
     left: 50%;
@@ -369,11 +383,13 @@ a {
     cursor: pointer;
 }
 
-/* hover styles for enroll / more info buttons */
-.enroll-button:hover,
-.info-button:hover {
+.more-info-container {
     background-color: #ffffff;
-    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 100%;
 }
 
 /* center enroll / more info buttons */
@@ -387,13 +403,11 @@ a {
     max-width: 100%;
 }
 
-.more-info-container {
+/* hover styles for enroll / more info buttons */
+.enroll-button:hover, .mod-enroll-button:hover,
+.info-button:hover {
     background-color: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    max-width: 100%;
+    color: black;
 }
 
 /* media query for smaller screens of enroll / more info buttons*/
