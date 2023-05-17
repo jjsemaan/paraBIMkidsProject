@@ -386,13 +386,13 @@ a {
     justify-content: center;
 }
 
-.book-images {
+.book-gallery img {
     max-width: 300px;
     margin: 10px;
 }
 
 @media (max-width: 600px) {
-    .gallery {
+    .book-gallery {
         flex-direction: column;
         align-items: center;
     }
