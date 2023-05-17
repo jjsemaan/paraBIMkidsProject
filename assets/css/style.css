@@ -325,10 +325,15 @@ a {
 
 /* joining club reasons*/
 
-.reasons {
+.reasons, .reading {
     max-width: 100%;
     margin: 25px 25px;
     text-align: center;
+}
+
+.reading h3 {
+    font-family: 'Montserrat', sans-serif;
+    margin: 15px 25px;
 }
 
 .joining-reasons p {
@@ -350,7 +355,7 @@ a {
     text-decoration: none;
     border: none;
     padding: 10px 20px;
-    margin-right: 10px;
+    margin-right: 0;
     margin-bottom: 10px;
     cursor: pointer;
     border-radius: 5px;
@@ -374,6 +379,25 @@ a {
     left: 50%;
     transform: translateX(-50%);
 }
+
+.book-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.book-images {
+    max-width: 300px;
+    margin: 10px;
+}
+
+@media (max-width: 600px) {
+    .gallery {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 
 .info-button {
     background-color: #fbfcfb;
@@ -419,7 +443,7 @@ a {
     .ourmods-button,
     .info-button {
         display: block;
-        width: 50%;
+        width: 100%;
         margin-right: 0;
         border-radius: 5px;
     }
