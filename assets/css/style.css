@@ -325,10 +325,22 @@ a {
 
 /* joining club reasons*/
 
-.reasons, .reading {
+.reasons {
     max-width: 100%;
     margin: 25px 25px;
     text-align: center;
+}
+
+.reading {
+    max-width: 100%;
+    margin: 5px 25px;
+    text-align: center;
+}
+
+.reading img {
+    width: 200px;
+    margin-bottom: 5px;
+
 }
 
 .reading h3 {
@@ -384,11 +396,14 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    border-top: #04AA6D solid 1px;
+    
 }
 
 .book-gallery img {
     max-width: 300px;
     margin: 10px;
+    height: 200px;
 }
 
 @media (max-width: 600px) {
