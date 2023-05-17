@@ -331,23 +331,6 @@ a {
     text-align: center;
 }
 
-.reading {
-    max-width: 100%;
-    margin: 5px 25px;
-    text-align: center;
-}
-
-.reading img {
-    width: 200px;
-    margin-bottom: 5px;
-
-}
-
-.reading h3 {
-    font-family: 'Montserrat', sans-serif;
-    margin: 15px 25px;
-}
-
 .joining-reasons p {
     background-color: #d8d8d8;
     max-width: 100%;
@@ -392,12 +375,29 @@ a {
     transform: translateX(-50%);
 }
 
+.reading {
+    max-width: 100%;
+    margin: 25px 25px 5px 25px;
+    text-align: center;
+}
+
+.reading img {
+    width: 200px;
+    margin-bottom: 5px;
+
+}
+
+.reading h3 {
+    font-family: 'Montserrat', sans-serif;
+    margin: 15px 25px;
+}
+
 .book-gallery {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     border-top: #04AA6D solid 1px;
-    
+    background-color: #dedede;    
 }
 
 .book-gallery img {
