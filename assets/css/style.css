@@ -397,7 +397,7 @@ a {
     flex-wrap: wrap;
     justify-content: center;
     border-top: #04AA6D solid 1px;
-    background-color: #dedede;    
+    background-color: #dedede;
 }
 
 .book-gallery img {
@@ -445,7 +445,8 @@ a {
 }
 
 /* hover styles for enroll / more info buttons */
-.ourmods-button:hover, .mod-enroll-button:hover,
+.ourmods-button:hover,
+.mod-enroll-button:hover,
 .info-button:hover {
     background-color: #ffffff;
     color: black;
@@ -490,7 +491,7 @@ a {
     color: #04AA6D;
 }
 
-/* copyright footer */
+/* footer - copyright footer */
 #footer-copyright {
     position: relative;
     bottom: 0;
@@ -678,13 +679,41 @@ a {
     margin: 0 auto;
 }
 
+.contactform-container h2 {
+    margin: 15px 0;
+    text-align: center;
+}
+
 .contactform-container label {
     display: block;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
 }
 
+.name-inputs {
+    display: flex;
+}
+
+.name-inputs div {
+    width: 100%;
+    margin-right: 20px;
+}
+
+.name-inputs div:last-child {
+    margin-right: 0;
+}
+
+.name-inputs label {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
+}
+
+.name-inputs input {
+    width: 100%;
+
+}
 
 .contactform-container input,
 .contactform-container textarea {
@@ -699,14 +728,36 @@ a {
     resize: vertical;
 }
 
-.contactform-container button {
+.sendmessage-button {
+    background-color: #04AA6D;
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+    border: none;
+    padding: 10px 20px;
+    max-width: fit-content;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.sendmessage-button:hover {
+    background-color: #c0c0c0;
+    color: black;
+}
+
+/*.contactform-container button {
     padding: 5px 10px;
     background-color: #4CAF50;
     color: #fff;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-}
+}*/
 
 #googlemaps {
     width: 100%;
@@ -714,9 +765,28 @@ a {
     /*max-height: 400px;*/
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
+    .contactform-container {
+        flex-basis: 100%;
+    }
+
     .form-container,
-        .map-container {
-            flex: 100%;
-        }
+    .map-container {
+        flex: 100%;
+    }
+
+    .form-container {
+        width: 100%;
+    }
+
+    .name-inputs {
+        flex-direction: column;
+    }
+
+    .name-inputs div {
+        margin-right: 0;
+        margin-bottom: 10px;
+        flex-basis: 100%;
+        width: 100%;
+    }
 }
