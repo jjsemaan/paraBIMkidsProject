@@ -126,7 +126,7 @@ a {
     float: left;
     width: 100vw;
     position: relative;
-    background: url('../images/kidsWide.png') no-repeat center center;
+    background: url('../images/kids-image-wide.png') no-repeat center center;
     background-size: cover;
     overflow: hidden;
 }
@@ -135,7 +135,7 @@ a {
     float: left;
     width: 100vw;
     position: relative;
-    background: url('../images/KidsNarrow.png') no-repeat center center;
+    background: url('../images/kids-image-narrow.png') no-repeat center center;
     background-size: cover;
     overflow: hidden;
 }
