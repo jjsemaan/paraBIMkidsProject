@@ -142,7 +142,7 @@ a {
 
 @media screen and (max-width: 800px) {
     #kids-imageSquare {
-        content: url('../images/KidsNarrow.png');
+        content: url('../images/kids-image-narrow.png');
     }
 
     #kids-imageLandscape {
@@ -152,7 +152,7 @@ a {
 
 @media screen and (min-width: 801px) {
     #kids-imageLandscape {
-        content: url('../images/kidsWide.png');
+        content: url('../images/kids-image-wide.png');
     }
 
     #kids-imageSquare {
