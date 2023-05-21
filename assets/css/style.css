@@ -420,7 +420,7 @@ a {
     border: none;
     padding: 10px 20px;
     margin-right: 10px;
-    cursor: pointer;
+    /*cursor: pointer;*/
 }
 
 .more-info-container {
@@ -445,8 +445,7 @@ a {
 
 /* hover styles for enroll / more info buttons */
 .ourmods-button:hover,
-.mod-enroll-button:hover,
-.info-button:hover {
+.mod-enroll-button:hover {
     background-color: #ffffff;
     color: black;
 }
