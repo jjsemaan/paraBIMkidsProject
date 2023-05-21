@@ -271,7 +271,6 @@ a {
     height: 90px;
     border-right: 2px solid #ccc;
     background-color: #04AA6D
-        /*rgba(73, 73, 73, 0.75);*/
 }
 
 .column:last-child {
@@ -300,10 +299,10 @@ a {
     color: #212121;
 }
 
-.column :hover {
+/*.column :hover {
     color: #ffffff;
     cursor: pointer;
-}
+}*/
 
 /* Responsive layout - makes the four columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
