@@ -20,23 +20,24 @@
         <header>
             <div class="logo-bg">
                 <a href="index.html">
-                    <h1 id="logo">ParaBIM Kids</h1>
+                    <h1 id="logo" aria-label="parabim kids logo">ParaBIM Kids</h1>
                 </a>
             </div>
             <nav>
                 <!--horizontal top menu and responsive navigation burger menu-->
                 <div>
                     <div class="topnav">
-                        <a href="contact.html" class="active">CONTACT</a>
-                        <a href="modules.html">MODULES</a>
-                        <a href="index.html">HOME</a>
+                        <a href="contact.html" class="active" aria-label="contact page">CONTACT</a>
+                        <a href="modules.html" aria-label="modules page">MODULES</a>
+                        <a href="index.html" aria-label="home page">HOME</a>
                     </div>
                     <div class="topnav-burger" id="myTopnav">
-                        <a href="index.html">HOME</a>
-                        <a href="modules.html">MODULES</a>
-                        <a href="contact.html" class="active">CONTACT</a>
+                        <a href="index.html" aria-label="home page">HOME</a>
+                        <a href="modules.html" aria-label="modules page">MODULES</a>
+                        <a href="contact.html" class="active" aria-label="contact page">CONTACT</a>
                         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                            <i class="fa fa-bars" aria-label="clickable burger to enable menu pages"></i>
+                            <i class="fa fa-bars" aria-label="toggle burger navigation menu"
+                                aria-hidden="false"></i>
                         </a>
                     </div>
                 </div>
@@ -48,30 +49,33 @@
                 <div class="contactform-container">
                     <h2>CONTACT US</h2>
                     <form method="post" action="" id="myForm">
-                        <fieldset>
-                            <div class="name-inputs">
-                                <div>
-                                    <label for="firstName">* First Name:</label>
-                                    <input type="text" id="firstName" name="firstName" required>
-                                </div>
-                                <div>
-                                    <label for="lastName">* Last Name:</label>
-                                    <input type="text" id="lastName" name="lastName" required>
-                                </div>
+
+                        <div class="name-inputs">
+                            <div>
+                                <label for="firstName">* First Name:</label>
+                                <input type="text" id="firstName" name="firstName" required
+                                    aria-label="first name input field">
                             </div>
-                        </fieldset>
-                        <fieldset>
-                            <label for="email">* Email:</label>
-                            <input type="email" id="email" name="email" required>
+                            <div>
+                                <label for="lastName">* Last Name:</label>
+                                <input type="text" id="lastName" name="lastName" required
+                                    aria-label="last name input field">
+                            </div>
+                        </div>
 
-                            <label for="phone">Phone:</label>
-                            <input type="phone" id="phone" name="phone" required>
+                        <label for="email">* Email:</label>
+                        <input type="email" id="email" name="email" required aria-label="email input field">
 
-                            <label for="message">Message:</label>
-                            <textarea id="message" name="message" rows="4" required></textarea>
-                        </fieldset>
+                        <label for="phone">Phone:</label>
+                        <input type="phone" id="phone" name="phone" required aria-label="phone input field">
+
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required
+                            aria-label="message input field"></textarea>
+
                         <div>
-                            <button class="sendmessage-button" type="submit" value="submit">SEND MESSAGE</button>
+                            <button class="sendmessage-button" type="submit" value="submit"
+                                aria-label="submit form button">SEND MESSAGE</button>
                         </div>
                     </form>
                 </div>
@@ -89,7 +93,7 @@
         <footer class="footer">
             <div class="more-info-container">
                 <button class="info-button">
-                    <a href="tel:+353899505557">Need help! Call us on +353 89 950 5557</a>
+                    <a href="tel:+353899505557" aria-label="click to call us">Need help! Call us on +353 89 950 5557</a>
                 </button>
             </div>
             <section class="social-networks">

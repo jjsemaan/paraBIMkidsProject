@@ -41,7 +41,7 @@ a {
 #logo {
     float: left;
     font-size: 280%;
-    margin-left: 30px;
+    margin-left: 15px;
     word-wrap: normal;
 }
 
@@ -303,6 +303,10 @@ a {
     max-width: 100%;
 }
 
+.more-info-container a {
+    color: black;
+}
+
 /* center enroll / more info buttons */
 .ourmods-button-container {
     background-color: rgb(228, 228, 228);
@@ -324,7 +328,7 @@ a {
 /* social media */
 .social-networks {
     height: 50px;
-    background-color: #f1f1f1;
+    background-color: #ffffff;
     text-align: center;
     position: relative;
 }
@@ -354,7 +358,7 @@ a {
     font-size: 140%;
     margin: 0;
     padding: 12px;
-    color: #00BD78;
+    color: rgb(53, 53, 53);
 }
 
 /* footer - copyright footer */
@@ -376,6 +380,9 @@ a {
     letter-spacing: 2px;
 }
 
+#footer-copyright a {
+    color: #1A1A1A;
+}
 
 
 /* Modules page modules icons in-line*/
@@ -503,7 +510,7 @@ a {
 
 .sendmessage-button {
     background-color: #00BD78;
-    color: white;
+    color: #1A1A1A;
     text-transform: capitalize;
     text-decoration: none;
     border: none;
