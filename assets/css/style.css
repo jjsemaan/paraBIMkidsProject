@@ -662,7 +662,7 @@ a {
 }
 
 /* resize slogan text at different screen sizes */
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 470px) {
     #slogan-text {
         font-size: 70%;
         font-family: 'Roboto Mono', sans-serif;
@@ -683,7 +683,7 @@ a {
     }
 }
 
-@media screen and (min-width: 421px) and (max-width: 600px) {
+@media screen and (min-width: 471px) and (max-width: 600px) {
     #slogan-text {
         font-size: 90%;
         font-family: 'Roboto Mono', sans-serif;
