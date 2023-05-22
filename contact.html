@@ -47,27 +47,31 @@
             <div class="contact-page">
                 <div class="contactform-container">
                     <h2>CONTACT US</h2>
-                    <form>
-                        <div class="name-inputs">
-                            <div>
-                                <label for="firstName">* First Name:</label>
-                                <input type="text" id="firstName" name="firstName" required>
+                    <form method="post" action="" id="myForm">
+                        <fieldset>
+                            <div class="name-inputs">
+                                <div>
+                                    <label for="firstName">* First Name:</label>
+                                    <input type="text" id="firstName" name="firstName" required>
+                                </div>
+                                <div>
+                                    <label for="lastName">* Last Name:</label>
+                                    <input type="text" id="lastName" name="lastName" required>
+                                </div>
                             </div>
-                            <div>
-                                <label for="lastName">* Last Name:</label>
-                                <input type="text" id="lastName" name="lastName" required>
-                            </div>
-                        </div>
-                        <label for="email">* Email:</label>
-                        <input type="email" id="email" name="email" required>
+                        </fieldset>
+                        <fieldset>
+                            <label for="email">* Email:</label>
+                            <input type="email" id="email" name="email" required>
 
-                        <label for="phone">Phone:</label>
-                        <input type="phone" id="phone" name="phone" required>
+                            <label for="phone">Phone:</label>
+                            <input type="phone" id="phone" name="phone" required>
 
-                        <label for="message">Message:</label>
-                        <textarea id="message" name="message" rows="4" required></textarea>
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                        </fieldset>
                         <div>
-                            <button class="sendmessage-button" type="submit">SEND MESSAGE</button>
+                            <button class="sendmessage-button" type="submit" value="submit">SEND MESSAGE</button>
                         </div>
                     </form>
                 </div>
@@ -145,6 +149,18 @@
             y.style.display = "block";
         }
     }
+</script>
+<script>
+    document.getElementById("myForm").addEventListener("submit", function (event) {
+        event.preventDefault(); // Prevent form submission
+
+        // Display responsive popup message
+        const message = "Thank you for your message!";
+        alert(message);
+
+        // Optional: Reset form fields
+        this.reset();
+    });
 </script>
 
 </html>
