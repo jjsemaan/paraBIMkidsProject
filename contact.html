@@ -139,26 +139,33 @@
         'https://www.w3schools.com/howto/howto_js_topnav_responsive.asp'-->
 <script>
     function myFunction() {
-        var x = document.getElementById("myTopnav");
-        var y = document.getElementById("slogan-text");
+        var x = document.getElementById("myTopnav"); // Menu element
+        var y = document.getElementById("slogan-text"); // Slogan element
+
         if (x.className === "topnav-burger") {
+            // If the menu is closed, add the "responsive" class to make it responsive
             x.className += " responsive";
+            // Hide the slogan element
             y.style.display = "none";
         } else {
+            // If the menu is already open, remove the "responsive" class
             x.className = "topnav-burger";
+            // Show the slogan element
             y.style.display = "block";
         }
     }
 </script>
+<!--Js function to create a popup window imported from W3Schools,
+        'https://www.w3schools.com/js/tryit.asp?filename=tryjs_alert'-->
 <script>
     document.getElementById("myForm").addEventListener("submit", function (event) {
         event.preventDefault(); // Prevent form submission
 
         // Display responsive popup message
-        const message = "Thank you for your message!";
+        const message = "Thank you for your message! We will get in touch with you the soonest possible.";
         alert(message);
 
-        // Optional: Reset form fields
+        // reset the form
         this.reset();
     });
 </script>
