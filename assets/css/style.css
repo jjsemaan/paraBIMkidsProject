@@ -140,48 +140,7 @@ a {
     padding-right: 20px;
 }
 
-@media screen and (max-width: 420px) {
-    #slogan-text {
-        font-size: 70%;
-        font-family: 'Roboto Mono', sans-serif;
-        text-transform: uppercase;
 
-        width: 210px;
-        height: 100px;
-
-        padding: 8px 3px;
-
-        background-color: rgba(246, 246, 246, 0.8);
-        border-radius: 5px;
-
-        position: absolute;
-        float: left;
-        top: 230px;
-        left: 10px;
-    }
-}
-
-@media screen and (min-width: 421px) and (max-width: 600px) {
-    #slogan-text {
-        font-size: 90%;
-        font-family: 'Roboto Mono', sans-serif;
-        text-transform: uppercase;
-
-        width: 250px;
-        height: 150px;
-
-        padding: 10px 10px;
-
-        background-color: rgba(246, 246, 246, 0.8);
-        /*border-end-end-radius: 50px;*/
-        border-radius: 25px;
-
-        position: absolute;
-        float: left;
-        top: 270px;
-        left: 10px;
-    }
-}
 
 /* modules list*/
 .row {
@@ -233,23 +192,7 @@ a {
     color: #212121;
 }
 
-/* Responsive layout - makes the four columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
-    .column {
-        width: 50%;
-        border-right: 2px solid #ccc;
-        border-bottom: 2px solid #ccc;
-    }
 
-    .column:last-child {
-        border-right: none;
-        border-bottom: 2px solid #ccc;
-    }
-
-    .column:nth-child(2) {
-        border-right: none;
-    }
-}
 
 /* joining club reasons*/
 
@@ -380,24 +323,6 @@ a {
     color: black;
 }
 
-/* media query for smaller screens of enroll / more info buttons*/
-@media screen and (max-width: 800px) {
-
-    /* stack the enroll / info buttons on top of each other */
-    .ourmods-button,
-    .info-button {
-        display: block;
-        width: 100%;
-        margin-right: 0;
-        border-radius: 5px;
-    }
-
-    /*make font size smaller for reasons to join us */
-    .joining-reasons p {
-        font-size: 100%;
-    }
-}
-
 /* social media */
 .social-networks {
     height: 50px;
@@ -453,16 +378,7 @@ a {
     letter-spacing: 2px;
 }
 
-@media screen and (max-width:300px) {
 
-    #footer-copyright p {
-        font-size: 60%;
-        text-align: center;
-        color: rgb(0, 0, 0);
-        font-family: 'Montserrat', sans-serif;
-        letter-spacing: 1px;
-    }
-}
 
 /* Modules page modules icons in-line*/
 /* Create four equal columns that floats next to each other */
@@ -509,90 +425,6 @@ a {
     color: #212121;
 }
 
-@media screen and (min-width: 1170px) and (max-width: 1525px) {
-    .mod-column {
-        height: 350px;
-        width: 50%;
-        border-bottom: 2px solid rgb(255, 255, 255);
-        border-right: 2px solid rgb(255, 255, 255);
-    }
-
-    .mod-column:last-child {
-        border-right: none;
-        border-bottom: 2px solid rgb(255, 255, 255);
-    }
-
-    .mod-column:nth-child(2) {
-        border-right: none;
-    }
-}
-
-/* Responsive layout - changes the four columns to two columns stacked on top of each other instead of next to each other */
-@media screen and (min-width: 768px) and (max-width: 1170px) {
-    .mod-column {
-        width: 50%;
-        border-bottom: 2px solid rgb(255, 255, 255);
-        border-right: 2px solid rgb(255, 255, 255);
-        height: 450px;
-    }
-
-    .mod-column:last-child {
-        border-right: none;
-        border-bottom: 2px solid rgb(255, 255, 255);
-    }
-
-    .mod-column:nth-child(2) {
-        border-right: none;
-    }
-}
-
-/* Responsive layout - makes the four columns stack on top of each other instead of next to each other */
-@media screen and (min-width: 550px) and (max-width: 768px) {
-    .mod-column {
-        width: 100%;
-        border-bottom: 2px solid rgb(255, 255, 255);
-        border-right: none;
-        height: 350px;
-    }
-
-    .mod-column:last-child {
-        border-right: none;
-        border-bottom: 2px solid rgb(255, 255, 255);
-    }
-
-}
-
-@media screen and (min-width: 350px) and (max-width: 550px) {
-    .mod-column {
-        width: 100%;
-        border-bottom: 2px solid rgb(255, 255, 255);
-        border-right: none;
-        height: 460px;
-    }
-
-    .mod-column:last-child {
-        border-right: none;
-        border-bottom: 2px solid rgb(255, 255, 255);
-    }
-
-}
-
-@media screen and (min-width: 280px) and (max-width: 350px) {
-    .mod-column {
-        height: 560px;
-        width: 100%;
-        border-bottom: 2px solid rgb(255, 255, 255);
-        border-right: none;
-    }
-
-    .mod-column:last-child {
-        border-bottom: 2px solid rgb(255, 255, 255);
-    }
-
-    .mod-enroll-button {
-        margin-bottom: 15px;
-    }
-}
 
 /* contact page styles */
 .contact-page {
@@ -702,6 +534,47 @@ a {
 }
 
 @media screen and (max-width: 800px) {
+    /* main kids image in two versions; changes depending on screen size. 
+        images source: Microsoft Designer Tool https: //designer.microsoft.com */
+    #kids-imageSquare {
+        content: url('../images/kids-image-narrow.png');
+    }
+
+    #kids-imageLandscape {
+        display: none;
+    }
+
+    /* Responsive layout - makes the four columns stack on top of each other instead of next to each other */
+    .column {
+        width: 50%;
+        border-right: 2px solid #ccc;
+        border-bottom: 2px solid #ccc;
+    }
+
+    .column:last-child {
+        border-right: none;
+        border-bottom: 2px solid #ccc;
+    }
+
+    .column:nth-child(2) {
+        border-right: none;
+    }
+
+    /* stack the enroll / info buttons on top of each other */
+    .ourmods-button,
+    .info-button {
+        display: block;
+        width: 100%;
+        margin-right: 0;
+        border-radius: 5px;
+    }
+
+    /*make font size smaller for reasons to join us */
+    .joining-reasons p {
+        font-size: 100%;
+    }
+
+    /* contact form stacking of labels*/
     .contactform-container {
         flex-basis: 100%;
     }
@@ -726,18 +599,6 @@ a {
         width: 100%;
     }
 }
-/* main kids image in two versions; changes depending on screen size. 
-    images source: Microsoft Designer Tool https: //designer.microsoft.com */
-    
-@media screen and (max-width: 800px) {
-    #kids-imageSquare {
-        content: url('../images/kids-image-narrow.png');
-    }
-
-    #kids-imageLandscape {
-        display: none;
-    }
-}
 
 @media screen and (min-width: 801px) {
     #kids-imageLandscape {
@@ -748,6 +609,7 @@ a {
         display: none;
     }
 }
+
 /* responsive navigation with burger for screens of 600px and lower; 
     source: https: //www.w3schools.com/howto/tryit.asp?filename=tryhow_js_topnav */
 @media screen and (max-width: 600px) {
@@ -781,9 +643,149 @@ a {
     }
 }
 
-
 @media screen and (min-width: 600px) {
     .topnav-burger {
         display: none;
+    }
+}
+
+/* footer - copyright footer */
+@media screen and (max-width:300px) {
+
+    #footer-copyright p {
+        font-size: 60%;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 1px;
+    }
+}
+
+/* resize slogan text at different screen sizes */
+@media screen and (max-width: 420px) {
+    #slogan-text {
+        font-size: 70%;
+        font-family: 'Roboto Mono', sans-serif;
+        text-transform: uppercase;
+
+        width: 210px;
+        height: 100px;
+
+        padding: 8px 3px;
+
+        background-color: rgba(246, 246, 246, 0.8);
+        border-radius: 5px;
+
+        position: absolute;
+        float: left;
+        top: 230px;
+        left: 10px;
+    }
+}
+
+@media screen and (min-width: 421px) and (max-width: 600px) {
+    #slogan-text {
+        font-size: 90%;
+        font-family: 'Roboto Mono', sans-serif;
+        text-transform: uppercase;
+
+        width: 250px;
+        height: 150px;
+
+        padding: 10px 10px;
+
+        background-color: rgba(246, 246, 246, 0.8);
+        /*border-end-end-radius: 50px;*/
+        border-radius: 25px;
+
+        position: absolute;
+        float: left;
+        top: 270px;
+        left: 10px;
+    }
+}
+
+/* Responsive layout - changes the module columns to two columns stacked on top of each other instead of next to each other */
+@media screen and (min-width: 1170px) and (max-width: 1525px) {
+    .mod-column {
+        height: 350px;
+        width: 50%;
+        border-bottom: 2px solid rgb(255, 255, 255);
+        border-right: 2px solid rgb(255, 255, 255);
+    }
+
+    .mod-column:last-child {
+        border-right: none;
+        border-bottom: 2px solid rgb(255, 255, 255);
+    }
+
+    .mod-column:nth-child(2) {
+        border-right: none;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1170px) {
+    .mod-column {
+        width: 50%;
+        border-bottom: 2px solid rgb(255, 255, 255);
+        border-right: 2px solid rgb(255, 255, 255);
+        height: 450px;
+    }
+
+    .mod-column:last-child {
+        border-right: none;
+        border-bottom: 2px solid rgb(255, 255, 255);
+    }
+
+    .mod-column:nth-child(2) {
+        border-right: none;
+    }
+}
+
+@media screen and (min-width: 550px) and (max-width: 768px) {
+    .mod-column {
+        width: 100%;
+        border-bottom: 2px solid rgb(255, 255, 255);
+        border-right: none;
+        height: 350px;
+    }
+
+    .mod-column:last-child {
+        border-right: none;
+        border-bottom: 2px solid rgb(255, 255, 255);
+    }
+
+}
+
+@media screen and (min-width: 350px) and (max-width: 550px) {
+    .mod-column {
+        width: 100%;
+        border-bottom: 2px solid rgb(255, 255, 255);
+        border-right: none;
+        height: 460px;
+    }
+
+    .mod-column:last-child {
+        border-right: none;
+        border-bottom: 2px solid rgb(255, 255, 255);
+    }
+
+}
+
+@media screen and (min-width: 280px) and (max-width: 350px) {
+    .mod-column {
+        height: 560px;
+        width: 100%;
+        border-bottom: 2px solid rgb(255, 255, 255);
+        border-right: none;
+    }
+
+    .mod-column:last-child {
+        border-bottom: 2px solid rgb(255, 255, 255);
+    }
+
+    .mod-enroll-button {
+        margin-bottom: 15px;
     }
 }
