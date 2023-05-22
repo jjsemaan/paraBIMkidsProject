@@ -76,7 +76,7 @@ a {
 
 .topnav a.active,
 .topnav-burger a.active {
-    background-color: #04AA6D;
+    background-color: #00975f;
     color: white;
 }
 
@@ -163,7 +163,7 @@ a {
     width: 25%;
     height: 90px;
     border-right: 2px solid #ccc;
-    background-color: #04AA6D
+    background-color: #00975f
 }
 
 .column:last-child {
@@ -215,7 +215,7 @@ a {
 
 /* styles for the our modules / more info buttons */
 .ourmods-button {
-    background-color: #04AA6D;
+    background-color: #00975f;
     color: white;
     text-transform: capitalize;
     text-decoration: none;
@@ -229,7 +229,7 @@ a {
 }
 
 .mod-enroll-button {
-    background-color: #04AA6D;
+    background-color: #00975f;
     color: white;
     text-transform: capitalize;
     text-decoration: none;
@@ -267,7 +267,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    border-top: #04AA6D solid 1px;
+    border-top: #00975f solid 1px;
     background-color: #dedede;
 }
 
@@ -356,7 +356,7 @@ a {
     font-size: 140%;
     margin: 0;
     padding: 12px;
-    color: #04AA6D;
+    color: #00975f;
 }
 
 /* footer - copyright footer */
@@ -504,7 +504,7 @@ a {
 }
 
 .sendmessage-button {
-    background-color: #04AA6D;
+    background-color: #00975f;
     color: white;
     text-transform: capitalize;
     text-decoration: none;
