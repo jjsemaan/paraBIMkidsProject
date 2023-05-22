@@ -545,7 +545,7 @@ a {
     /*max-height: 400px;*/
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
 
     /* main kids image in two versions; changes depending on screen size. 
         images source: Microsoft Designer Tool https: //designer.microsoft.com */
@@ -556,9 +556,6 @@ a {
     #kids-imageLandscape {
         display: none;
     }
-}
-
-@media screen and (max-width: 800px) {
 
     /* Responsive layout - makes the four columns stack on top of each other instead of next to each other */
     .column {
@@ -617,7 +614,7 @@ a {
     }
 }
 
-@media screen and (min-width: 901px) {
+@media screen and (min-width: 801px) {
     #kids-imageLandscape {
         content: url('../images/kids-image-wide.webp');
     }
@@ -702,12 +699,12 @@ a {
 
         position: absolute;
         float: left;
-        top: 230px;
+        top: 200px;
         left: 10px;
     }
 }
 
-@media screen and (min-width: 471px) and (max-width: 600px) {
+@media screen and (min-width: 471px) and (max-width: 900px) {
     #slogan-text {
         font-size: 90%;
         font-family: 'Roboto Mono', sans-serif;
@@ -720,11 +717,11 @@ a {
 
         background-color: rgba(246, 246, 246, 0.8);
         /*border-end-end-radius: 50px;*/
-        border-radius: 25px;
+        border-radius: 20px;
 
         position: absolute;
         float: left;
-        top: 270px;
+        top: 170px;
         left: 10px;
     }
 }
