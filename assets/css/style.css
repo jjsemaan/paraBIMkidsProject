@@ -33,7 +33,6 @@ a {
 
 /* Logo */
 .logo-bg {
-    /*overflow: hidden;*/
     background-color: #fff;
     width: 100%;
     height: 60px;
@@ -53,7 +52,7 @@ a {
 .topnav,
 .topnav-burger {
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(228, 228, 228);
     width: 100%;
 }
 
@@ -61,7 +60,7 @@ a {
 .topnav-burger a {
     float: right;
     display: block;
-    color: #f2f2f2;
+    color: #1A1A1A;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -70,14 +69,14 @@ a {
 
 .topnav a:hover,
 .topnav-burger a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: rgb(255, 255, 255);
+    color: #1A1A1A;
 }
 
 .topnav a.active,
 .topnav-burger a.active {
-    background-color: #00975f;
-    color: white;
+    background-color: #00BD78;
+    color: #1A1A1A;
 }
 
 .topnav-burger .icon {
@@ -163,7 +162,7 @@ a {
     width: 25%;
     height: 90px;
     border-right: 2px solid #ccc;
-    background-color: #00975f
+    background-color: #00BD78;
 }
 
 .column:last-child {
@@ -173,7 +172,7 @@ a {
 .column h2 {
     font-family: 'Roboto Mono', sans-serif;
     font-weight: 200;
-    color: #fff;
+    color: #1A1A1A;
     margin: 10px 0;
     text-align: center;
     font-size: 100%;
@@ -189,7 +188,7 @@ a {
 
 .icon-color,
 .column>h2 {
-    color: #212121;
+    color: #1A1A1A;
 }
 
 
@@ -203,7 +202,7 @@ a {
 }
 
 .joining-reasons p {
-    background-color: #d8d8d8;
+    background-color: rgb(228, 228, 228);
     max-width: 100%;
     font-size: 120%;
     font-family: 'Montserrat', sans-serif;
@@ -215,8 +214,8 @@ a {
 
 /* styles for the our modules / more info buttons */
 .ourmods-button {
-    background-color: #00975f;
-    color: white;
+    background-color: #00BD78;
+    color: #1A1A1A;
     text-transform: capitalize;
     text-decoration: none;
     border: none;
@@ -229,8 +228,8 @@ a {
 }
 
 .mod-enroll-button {
-    background-color: #00975f;
-    color: white;
+    background-color: #00BD78;
+    color: #1A1A1A;
     text-transform: capitalize;
     text-decoration: none;
     border: none;
@@ -267,7 +266,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    border-top: #00975f solid 1px;
+    border-top: #00BD78 solid 1px;
     background-color: #dedede;
 }
 
@@ -302,12 +301,11 @@ a {
     align-items: center;
     flex-wrap: wrap;
     max-width: 100%;
-    height: 30px;
 }
 
 /* center enroll / more info buttons */
 .ourmods-button-container {
-    background-color: #d8d8d8;
+    background-color: rgb(228, 228, 228);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -326,7 +324,7 @@ a {
 /* social media */
 .social-networks {
     height: 50px;
-    background-color: #212121;
+    background-color: #f1f1f1;
     text-align: center;
     position: relative;
 }
@@ -356,7 +354,7 @@ a {
     font-size: 140%;
     margin: 0;
     padding: 12px;
-    color: #00975f;
+    color: #00BD78;
 }
 
 /* footer - copyright footer */
@@ -504,7 +502,7 @@ a {
 }
 
 .sendmessage-button {
-    background-color: #00975f;
+    background-color: #00BD78;
     color: white;
     text-transform: capitalize;
     text-decoration: none;
