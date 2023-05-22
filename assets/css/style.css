@@ -196,8 +196,9 @@ a {
 
 .reasons {
     max-width: 100%;
-    margin: 25px 25px;
+    margin: 0 25px;
     text-align: center;
+    padding: 25px 0;
 }
 
 .error {
