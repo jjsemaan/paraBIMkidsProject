@@ -15,8 +15,10 @@
 </head>
 
 <body>
+    <!--code-wrapper used to enable sticky footer-->
     <div class="code-wrapper">
         <header>
+            <!--logo and background-->
             <div class="logo-bg">
                 <a href="index.html">
                     <h1 id="logo">ParaBIM Kids</h1>
@@ -24,6 +26,7 @@
             </div>
             <nav>
                 <div>
+                    <!--horizontal top menu and responsive navigation burger menu-->
                     <div class="topnav">
                         <a href="contact.html">CONTACT</a>
                         <a href="modules.html">MODULES</a>
@@ -42,8 +45,10 @@
         </header>
         <main>
             <section>
+                <!--main image in two versions for desktop and mobile-->
                 <div id="kids-imageLandscape"></div>
                 <div id="kids-imageSquare"></div>
+                <!--slogan on main image-->
                 <div id="slogan-text">
                     <h2>Lets code for fun together!</h2>
                     <br>
@@ -51,6 +56,7 @@
                 </div>
             </section>
             <section>
+                <!--icons representing taught coding languages-->
                 <div class="row">
                     <div class="column">
                         <h2><i class="fab fa-html5 icon-color"></i>HTML</h2>
@@ -67,6 +73,7 @@
                 </div>
             </section>
             <section>
+                <!--general info about the site on index page-->
                 <div class="reasons">
                     <h2>Why join ParaBIM Kids?</h2>
                 </div>
@@ -87,6 +94,7 @@
                 </div>
             </section>
         </main>
+        <!--footer includes call us tel attribute, social media and copyright with link to developer website-->
         <footer class="footer">
             <div class="more-info-container">
                 <button class="info-button">
@@ -137,6 +145,7 @@
 
 <!--Js function to control the responsive menu imported from W3Schools,
     'https://www.w3schools.com/howto/howto_js_topnav_responsive.asp'-->
+    <!--amended to include active tab and to hide slogan when burger is clicked-->
 <script>
     function myFunction() {
         var x = document.getElementById("myTopnav");
