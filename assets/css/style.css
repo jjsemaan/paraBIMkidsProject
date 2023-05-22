@@ -104,7 +104,6 @@ a {
     overflow: hidden;
 }
 
-
 /* cover slogan */
 #slogan-text {
     font-size: 130%;
@@ -201,7 +200,18 @@ a {
     text-align: center;
 }
 
-.joining-reasons p {
+.error {
+    max-width: 100%;
+    margin: 120px 25px;
+    text-align: center;
+}
+
+.error h2 {
+    font-size: 300%;
+    color: red;
+}
+
+.joining-reasons p, .error-note p {
     background-color: rgb(228, 228, 228);
     max-width: 100%;
     font-size: 120%;
@@ -213,7 +223,8 @@ a {
 }
 
 /* styles for the our modules / more info buttons */
-.ourmods-button {
+.ourmods-button, 
+.return-button {
     background-color: #00BD78;
     color: #1A1A1A;
     text-transform: capitalize;
@@ -303,7 +314,8 @@ a {
 }
 
 /* center enroll / more info buttons */
-.ourmods-button-container {
+.ourmods-button-container,
+.return-home-container {
     background-color: rgb(228, 228, 228);
     display: flex;
     justify-content: center;
@@ -315,7 +327,8 @@ a {
 
 /* hover styles for enroll / more info buttons */
 .ourmods-button:hover,
-.mod-enroll-button:hover {
+.mod-enroll-button:hover,
+.return-button:hover {
     background-color: #ffffff;
     color: black;
 }
@@ -533,6 +546,7 @@ a {
 }
 
 @media screen and (max-width: 800px) {
+
     /* main kids image in two versions; changes depending on screen size. 
         images source: Microsoft Designer Tool https: //designer.microsoft.com */
     #kids-imageSquare {
@@ -561,7 +575,8 @@ a {
 
     /* stack the enroll / info buttons on top of each other */
     .ourmods-button,
-    .info-button {
+    .info-button,
+    .return-button {
         display: block;
         width: 100%;
         margin-right: 0;
