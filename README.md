@@ -1,10 +1,39 @@
 # Kids Coding Club
 
-## A website built for future launch of an after school kids coding club in Dublin, Ireland
+## A fictional website built for an after school kids coding club in Dublin, Ireland
 
 ### PP1 Jalal Semaan
 
 ![am I responsive screenshot](assets/images/amiresponsive.png)
+
+
+
+## **[Live site](https://jjsemaan.github.io/paraBIMkidsProject/)**
+
+------------------------------------------------------------------
+
+## **[Repository](https://github.com/jjsemaan/paraBIMkidsProject/tree/main)**
+
+------------------------------------------------------------------
+
+## Table of contents
+
+ 1. [UX](#ux)
+ 2. [Features](#features)  
+ 3. [Features Left to Implement](#left)  
+ 4. [Technology used](#tech)
+ 5. [Testing](#testing)  
+ 6. [Bugs](#bugs)  
+ 7. [Deployment](#deployment)
+ 8. [Credits](#credits)
+ 9. [Content](#content)  
+ 10. [Acknowledgements](#acknowledgements)  
+
+## UX
+
+<a name="ux"></a>
+
+### Pre-project Planning
 
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
