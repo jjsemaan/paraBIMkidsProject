@@ -11,10 +11,32 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="assets/images/parabim-favicon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>ParaBIM-Kids</title>
     <!--Font Awesome for web icons; 
             keep this script inside <head> as recommended by publisher otherwise will return error in html validation as a stray tag-->
     <script src="https://kit.fontawesome.com/5cf801ac8f.js" crossorigin="anonymous"></script>
-    <title>ParaBIM-Kids</title>
+
+    <!--Js function to control the responsive menu imported from W3Schools,
+        'https://www.w3schools.com/howto/howto_js_topnav_responsive.asp'-->
+    <!--amended to include active tab and to hide slogan when burger is clicked-->
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav"); // Menu element
+            var y = document.getElementById("slogan-text"); // Slogan element
+
+            if (x.className === "topnav-burger") {
+                // If the menu is closed, add the "responsive" class to make it responsive
+                x.className += " responsive";
+                // Hide the slogan element
+                y.style.display = "none";
+            } else {
+                // If the menu is already open, remove the "responsive" class
+                x.className = "topnav-burger";
+                // Show the slogan element
+                y.style.display = "block";
+            }
+        }
+    </script>
 </head>
 
 <body>
@@ -32,8 +54,8 @@
                     </p>
                 </div>
                 <div class="return-home-container">
-                    <a href="index.html"><button class="return-button" aria-label="home page">
-                            HOME</button></a>
+                    <a href="index.html" class="return-button" aria-label="home page">
+                        HOME</a>
                 </div>
             </section>
         </main>
@@ -42,38 +64,38 @@
             <div class="more-info-container">
                 <a href="tel:+353899505557" aria-label="click to call us">Need help! Call us on +353 89 950 5557</a>
             </div>
-            <section>
-                <div class="social-networks">
 
-                    <ul>
-                        <li>
-                            <a href="https://facebook.com" target="_blank" rel="noopener"
-                                aria-label="visit our facebook page (opens up in new tab)"><i
-                                    class="fab fa-facebook-square"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com" target="_blank" rel="noopener"
-                                aria-label="visit our twitter page (opens up in new tab)"><i
-                                    class="fab fa-twitter-square"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://youtube.com" target="_blank" rel="noopener"
-                                aria-label="visit our youtube channel (opens up in new tab)"><i
-                                    class="fab fa-youtube-square"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://instagram.com" target="_blank" rel="noopener"
-                                aria-label="visit our instagram page (opens up in new tab)"><i
-                                    class="fab fa-instagram-square"></i></a>
-                        </li>
-                        <li>
-                            <a href="#logo" aria-label="scroll to top">
-                                <i class="fas fa-angle-double-up"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </section>
+            <div class="social-networks">
+
+                <ul>
+                    <li>
+                        <a href="https://facebook.com" target="_blank" rel="noopener"
+                            aria-label="visit our facebook page (opens up in new tab)"><i
+                                class="fab fa-facebook-square"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com" target="_blank" rel="noopener"
+                            aria-label="visit our twitter page (opens up in new tab)"><i
+                                class="fab fa-twitter-square"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://youtube.com" target="_blank" rel="noopener"
+                            aria-label="visit our youtube channel (opens up in new tab)"><i
+                                class="fab fa-youtube-square"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://instagram.com" target="_blank" rel="noopener"
+                            aria-label="visit our instagram page (opens up in new tab)"><i
+                                class="fab fa-instagram-square"></i></a>
+                    </li>
+                    <li>
+                        <a href="#logo" aria-label="scroll to top">
+                            <i class="fas fa-angle-double-up"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
             <div id="footer-copyright">
                 <p>&copy; ParaBIM Kids 2023 | <a href="https://parabim.com" target="_blank" rel="noopener"
                         aria-label="visit ParaBIM Ltd. website (opens up in new tab)"><strong>ParaBIM Ltd.</strong></a>
@@ -82,27 +104,5 @@
         </footer>
     </div>
 </body>
-
-<!--Js function to control the responsive menu imported from W3Schools,
-    'https://www.w3schools.com/howto/howto_js_topnav_responsive.asp'-->
-<!--amended to include active tab and to hide slogan when burger is clicked-->
-<script>
-    function myFunction() {
-        var x = document.getElementById("myTopnav"); // Menu element
-        var y = document.getElementById("slogan-text"); // Slogan element
-
-        if (x.className === "topnav-burger") {
-            // If the menu is closed, add the "responsive" class to make it responsive
-            x.className += " responsive";
-            // Hide the slogan element
-            y.style.display = "none";
-        } else {
-            // If the menu is already open, remove the "responsive" class
-            x.className = "topnav-burger";
-            // Show the slogan element
-            y.style.display = "block";
-        }
-    }
-</script>
 
 </html>
