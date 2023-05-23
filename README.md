@@ -18,22 +18,27 @@
 
 ## Table of contents
 
- 1. [UX](#ux)
- 2. [Features](#features)  
- 3. [Features Left to Implement](#left)  
- 4. [Technology used](#tech)
- 5. [Testing](#testing)  
- 6. [Bugs](#bugs)  
- 7. [Deployment](#deployment)
- 8. [Credits](#credits)
- 9. [Content](#content)  
- 10. [Acknowledgements](#acknowledgements)  
+ 1. [Features](#features)  
+ 2. [Features Left to Implement](#left)  
+ 3. [Technology used](#tech)
+ 4. [Testing](#testing)  
+ 5. [Bugs](#bugs)  
+ 6. [Deployment](#deployment)
+ 7. [Credits](#credits)
+ 8. [Content](#content)  
+ 9. [Acknowledgements](#acknowledgements)  
 
-## UX
+## Features
 
-<a name="ux"></a>
+### Site wide
 
-### Pre-project Planning
+* Navigation Menu
+  * Contains links to the Home, Modules and Contact pages and will be responsive on all devices in two forms straight horizontal menu and burger menu for mobile devices.
+  * This will allow users to navigate intuitively between the pages without any interruptions on any size device.
+  * See below images of navigation menu.
+
+![Nav Menu](assets/images/navigation.jpg)
+
 
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
