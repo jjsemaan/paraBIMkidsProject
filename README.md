@@ -1,3 +1,11 @@
+# Kids Coding Club
+
+## A website built for future launch of an after school kids coding club in Dublin, Ireland
+
+### PP1 Jalal Semaan
+
+![am I responsive screenshot](assets/images/amiresponsive.png)
+
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 Welcome,
