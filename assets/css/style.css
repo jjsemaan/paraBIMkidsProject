@@ -190,8 +190,6 @@ a {
     color: #1A1A1A;
 }
 
-
-
 /* joining club reasons*/
 
 .reasons {
@@ -223,11 +221,11 @@ a {
     text-align: center;
 }
 
-/* styles for the our modules / more info buttons */
+/* stack the enroll / info buttons on top of each other */
 .ourmods-button, 
 .return-button {
     background-color: #00BD78;
-    color: #1A1A1A;
+    color: #000000;
     text-transform: capitalize;
     text-decoration: none;
     border: none;
@@ -237,6 +235,9 @@ a {
     cursor: pointer;
     border-radius: 5px;
     text-align: center;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
 }
 
 .mod-enroll-button {
@@ -291,7 +292,7 @@ a {
 }
 
 
-/* contact us for more info */
+/* contact us for more info 
 .info-button {
     background-color: #fbfcfb;
     color: rgb(0, 0, 0);
@@ -299,7 +300,7 @@ a {
     border: none;
     padding: 10px 20px;
     margin-right: 10px;
-}
+}*/
 
 .more-info-container {
     background-color: #ffffff;
@@ -312,6 +313,8 @@ a {
 
 .more-info-container a {
     color: black;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
 }
 
 /* center enroll / more info buttons */
@@ -574,15 +577,11 @@ a {
         border-right: none;
     }
 
-    /* stack the enroll / info buttons on top of each other */
-    .ourmods-button,
-    .info-button,
-    .return-button {
-        display: block;
-        width: 100%;
-        margin-right: 0;
-        border-radius: 5px;
-    }
+    
+
+    /*.info-button a {
+        font-family: 'Montserrat', sans-serif;
+    }*/
 
     /*make font size smaller for reasons to join us */
     .joining-reasons p {
