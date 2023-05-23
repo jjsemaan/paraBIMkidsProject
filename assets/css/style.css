@@ -242,7 +242,7 @@ a {
 
 .mod-enroll-button {
     background-color: #00BD78;
-    color: #1A1A1A;
+    color: #000000;
     text-transform: capitalize;
     text-decoration: none;
     border: none;
@@ -256,6 +256,10 @@ a {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
+    font-family: 'Roboto Mono', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 100%;
 }
 
 /* reading list*/
@@ -436,11 +440,6 @@ a {
     transform: translateX(-50%);
     font-size: 250%;
 }
-
-.mod-column>h2 {
-    color: #212121;
-}
-
 
 /* contact page styles */
 .contact-page {
@@ -638,6 +637,7 @@ a {
     .topnav-burger a.icon {
         float: right;
         display: block;
+        cursor: pointer;
     }
 
     .topnav-burger.responsive {
