@@ -11,10 +11,31 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="assets/images/parabim-favicon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>ParaBIM-Kids</title>
     <!--Font Awesome for web icons; 
         keep this script inside <head> as recommended by publisher otherwise will return error in html validation as a stray tag-->
     <script src="https://kit.fontawesome.com/5cf801ac8f.js" crossorigin="anonymous"></script>
-    <title>ParaBIM-Kids</title>
+    <!--Js function to control the responsive menu imported from W3Schools,
+        'https://www.w3schools.com/howto/howto_js_topnav_responsive.asp'-->
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav"); // Menu element
+            var y = document.getElementById("slogan-text"); // Slogan element
+
+            if (x.className === "topnav-burger") {
+                // If the menu is closed, add the "responsive" class to make it responsive
+                x.className += " responsive";
+                // Hide the slogan element
+                y.style.display = "none";
+            } else {
+                // If the menu is already open, remove the "responsive" class
+                x.className = "topnav-burger";
+                // Show the slogan element
+                y.style.display = "block";
+            }
+        }
+    </script>
+
 </head>
 
 <body>
@@ -38,8 +59,8 @@
                         <a href="index.html" aria-label="home page">HOME</a>
                         <a href="modules.html" class="active" aria-label="modules page">MODULES</a>
                         <a href="contact.html" aria-label="contact page">CONTACT</a>
-                        <a class="icon" onclick="myFunction()">
-                            <i class="fa fa-bars" aria-label="toggle burger navigation menu" aria-hidden="false"></i>
+                        <a class="icon" onclick="myFunction()" aria-label="toggle burger navigation menu">
+                            <i class="fa fa-bars"></i>
                         </a>
                     </div>
                 </div>
@@ -64,7 +85,7 @@
                             presentation and
                             accessibility of information on the web.</p>
                         <a href="contact.html" class="mod-enroll-button" aria-label="opens contact page">ENROLL
-                                NOW</a>
+                            NOW</a>
                     </div>
                     <div class="mod-column">
                         <h2><i class="fab fa-css3-alt icon-color"></i>CSS</h2>
@@ -77,7 +98,7 @@
                             desired look
                             and feel.</p>
                         <a href="contact.html" class="mod-enroll-button" aria-label="opens contact page">ENROLL
-                                NOW</a>
+                            NOW</a>
                     </div>
                     <div class="mod-column">
                         <h2><i class="fab fa-js icon-color"></i>JavaScript</h2>
@@ -91,7 +112,7 @@
                             experiences that go beyond
                             the static nature of HTML and CSS.</p>
                         <a href="contact.html" class="mod-enroll-button" aria-label="opens contact page">ENROLL
-                                NOW</a>
+                            NOW</a>
                     </div>
                     <div class="mod-column">
                         <h2><i class="fab fa-python icon-color"></i>Python</h2>
@@ -105,7 +126,7 @@
                             development, enabling the
                             implementation of game mechanics, AI algorithms, and scripting functionalities.</p>
                         <a href="contact.html" class="mod-enroll-button" aria-label="opens contact page">ENROLL
-                                NOW</a>
+                            NOW</a>
                     </div>
                 </div>
             </section>
@@ -116,60 +137,58 @@
                     <img src="assets/images/amazon-books.webp" alt="amazon books logo" aria-label="amazon books logo">
                 </div>
             </section>
-            <section>
-                <!--coding books with links to seller-->
-                <div class="book-gallery">
-                    <a href="https://amzn.eu/d/7ctTRbN" target="_blank"><img src="assets/images/html-book.jpg"
-                            alt="html games book for kids" rel="noopener"
-                            aria-label="opens book details amazon website"></a>
-                    <a href="https://amzn.eu/d/8apgXCa" target="_blank"><img src="assets/images/python-book.jpg"
-                            alt="python games book for kids" rel="noopener"
-                            aria-label="opens book details amazon website"></a>
-                    <a href="https://amzn.eu/d/bg6U1d8" target="_blank"><img src="assets/images/scratch-book1.jpg"
-                            alt="coding with scratch adding 3d" rel="noopener"
-                            aria-label="opens book details amazon website"></a>
-                    <a href="https://amzn.eu/d/botn6hs" target="_blank"><img src="assets/images/scratch-book2.jpg"
-                            alt="coding with scratch adding animations" rel="noopener"
-                            aria-label="opens book details amazon website"></a>
-                </div>
-            </section>
+            <!--coding books with links to seller-->
+            <div class="book-gallery">
+                <a href="https://amzn.eu/d/7ctTRbN" target="_blank"><img src="assets/images/html-book.jpg"
+                        alt="html games book for kids" rel="noopener"
+                        aria-label="opens book details amazon website"></a>
+                <a href="https://amzn.eu/d/8apgXCa" target="_blank"><img src="assets/images/python-book.jpg"
+                        alt="python games book for kids" rel="noopener"
+                        aria-label="opens book details amazon website"></a>
+                <a href="https://amzn.eu/d/bg6U1d8" target="_blank"><img src="assets/images/scratch-book1.jpg"
+                        alt="coding with scratch adding 3d" rel="noopener"
+                        aria-label="opens book details amazon website"></a>
+                <a href="https://amzn.eu/d/botn6hs" target="_blank"><img src="assets/images/scratch-book2.jpg"
+                        alt="coding with scratch adding animations" rel="noopener"
+                        aria-label="opens book details amazon website"></a>
+            </div>
         </main>
         <!--footer includes call us tel attribute, social media and copyright with link to developer website-->
         <footer class="footer">
             <div class="more-info-container">
-                    <a href="tel:+353899505557" aria-label="click to call us">Need help! Call us on +353 89 950 5557</a>
+                <a href="tel:+353899505557" aria-label="click to call us">Need help! Call us on +353 89 950 5557</a>
             </div>
-            <section>
-                <div class="social-networks">
-                    <ul>
-                        <li>
-                            <a href="https://facebook.com" target="_blank" rel="noopener"
-                                aria-label="visit our facebook page (opens up in new tab)"><i
-                                    class="fab fa-facebook-square"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com" target="_blank" rel="noopener"
-                                aria-label="visit our twitter page (opens up in new tab)"><i
-                                    class="fab fa-twitter-square"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://youtube.com" target="_blank" rel="noopener"
-                                aria-label="visit our youtube channel (opens up in new tab)"><i
-                                    class="fab fa-youtube-square"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://instagram.com" target="_blank" rel="noopener"
-                                aria-label="visit our instagram page (opens up in new tab)"><i
-                                    class="fab fa-instagram-square"></i></a>
-                        </li>
-                        <li>
-                            <a href="#logo" aria-label="scroll to top">
-                                <i class="fas fa-angle-double-up"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </section>
+
+            <div class="social-networks">
+                <ul>
+                    <li>
+                        <a href="https://facebook.com" target="_blank" rel="noopener"
+                            aria-label="visit our facebook page (opens up in new tab)"><i
+                                class="fab fa-facebook-square"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com" target="_blank" rel="noopener"
+                            aria-label="visit our twitter page (opens up in new tab)"><i
+                                class="fab fa-twitter-square"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://youtube.com" target="_blank" rel="noopener"
+                            aria-label="visit our youtube channel (opens up in new tab)"><i
+                                class="fab fa-youtube-square"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://instagram.com" target="_blank" rel="noopener"
+                            aria-label="visit our instagram page (opens up in new tab)"><i
+                                class="fab fa-instagram-square"></i></a>
+                    </li>
+                    <li>
+                        <a href="#logo" aria-label="scroll to top">
+                            <i class="fas fa-angle-double-up"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
             <div id="footer-copyright">
                 <p>&copy; ParaBIM Kids 2023 | <a href="https://parabim.com" target="_blank" rel="noopener"
                         aria-label="visit ParaBIM Ltd. website (opens up in new tab)"><strong>ParaBIM Ltd.</strong></a>
@@ -178,25 +197,5 @@
         </footer>
     </div>
 </body>
-<!--Js function to control the responsive menu imported from W3Schools,
-    'https://www.w3schools.com/howto/howto_js_topnav_responsive.asp'-->
-<script>
-    function myFunction() {
-        var x = document.getElementById("myTopnav"); // Menu element
-        var y = document.getElementById("slogan-text"); // Slogan element
-
-        if (x.className === "topnav-burger") {
-            // If the menu is closed, add the "responsive" class to make it responsive
-            x.className += " responsive";
-            // Hide the slogan element
-            y.style.display = "none";
-        } else {
-            // If the menu is already open, remove the "responsive" class
-            x.className = "topnav-burger";
-            // Show the slogan element
-            y.style.display = "block";
-        }
-    }
-</script>
 
 </html>

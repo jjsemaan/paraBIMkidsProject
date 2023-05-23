@@ -15,7 +15,7 @@
     <!--Font Awesome for web icons; 
             keep this script inside <head> as recommended by publisher otherwise will return error in html validation as a stray tag-->
     <script src="https://kit.fontawesome.com/5cf801ac8f.js" crossorigin="anonymous"></script>
-    
+
     <!--Js function to control the responsive menu imported from W3Schools,
         'https://www.w3schools.com/howto/howto_js_topnav_responsive.asp'-->
     <!--amended to include active tab and to hide slogan when burger is clicked-->
@@ -61,8 +61,8 @@
                         <a href="index.html" class="active" aria-label="home page">HOME</a>
                         <a href="modules.html" aria-label="modules page">MODULES</a>
                         <a href="contact.html" aria-label="contact page">CONTACT</a>
-                        <a class="icon" onclick="myFunction()">
-                            <i class="fa fa-bars" aria-label="toggle burger navigation menu" aria-hidden="false"></i>
+                        <a class="icon" onclick="myFunction()" aria-label="toggle burger navigation menu">
+                            <i class="fa fa-bars"></i>
                         </a>
                     </div>
                 </div>
@@ -80,20 +80,20 @@
                     <p>Learn how to code and create your own games...</p>
                 </div>
             </section>
-            <section>
+            <section aria-label="coding languages">
                 <!--icons representing taught coding languages-->
                 <div class="row">
-                    <div class="column" aria-label="html icon">
-                        <h2 ><i class="fab fa-html5 icon-color"></i>HTML</h2>
+                    <div class="column">
+                        <h2><i class="fab fa-html5 icon-color"></i>HTML</h2>
                     </div>
                     <div class="column">
-                        <h2><i class="fab fa-css3-alt icon-color" aria-label="css icon"></i>CSS</h2>
+                        <h2><i class="fab fa-css3-alt icon-color"></i>CSS</h2>
                     </div>
                     <div class="column">
-                        <h2><i class="fab fa-js icon-color" aria-label="javascript icon"></i>JavaScript</h2>
+                        <h2><i class="fab fa-js icon-color"></i>JavaScript</h2>
                     </div>
                     <div class="column">
-                        <h2><i class="fab fa-python icon-color" aria-label="python icon"></i>Python</h2>
+                        <h2><i class="fab fa-python icon-color"></i>Python</h2>
                     </div>
                 </div>
             </section>
@@ -124,38 +124,38 @@
             <div class="more-info-container">
                 <a href="tel:+353899505557" aria-label="click to call us">Need help! Call us on +353 89 950 5557</a>
             </div>
-            <section>
-                <div class="social-networks">
 
-                    <ul>
-                        <li>
-                            <a href="https://facebook.com" target="_blank" rel="noopener"
-                                aria-label="visit our facebook page (opens up in new tab)"><i
-                                    class="fab fa-facebook-square"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com" target="_blank" rel="noopener"
-                                aria-label="visit our twitter page (opens up in new tab)"><i
-                                    class="fab fa-twitter-square"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://youtube.com" target="_blank" rel="noopener"
-                                aria-label="visit our youtube channel (opens up in new tab)"><i
-                                    class="fab fa-youtube-square"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://instagram.com" target="_blank" rel="noopener"
-                                aria-label="visit our instagram page (opens up in new tab)"><i
-                                    class="fab fa-instagram-square"></i></a>
-                        </li>
-                        <li>
-                            <a href="#logo" aria-label="scroll to top">
-                                <i class="fas fa-angle-double-up"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </section>
+            <div class="social-networks">
+
+                <ul>
+                    <li>
+                        <a href="https://facebook.com" target="_blank" rel="noopener"
+                            aria-label="visit our facebook page (opens up in new tab)"><i
+                                class="fab fa-facebook-square"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com" target="_blank" rel="noopener"
+                            aria-label="visit our twitter page (opens up in new tab)"><i
+                                class="fab fa-twitter-square"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://youtube.com" target="_blank" rel="noopener"
+                            aria-label="visit our youtube channel (opens up in new tab)"><i
+                                class="fab fa-youtube-square"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://instagram.com" target="_blank" rel="noopener"
+                            aria-label="visit our instagram page (opens up in new tab)"><i
+                                class="fab fa-instagram-square"></i></a>
+                    </li>
+                    <li>
+                        <a href="#logo" aria-label="scroll to top">
+                            <i class="fas fa-angle-double-up"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
             <div id="footer-copyright">
                 <p>&copy; ParaBIM Kids 2023 | <a href="https://parabim.com" target="_blank" rel="noopener"
                         aria-label="visit ParaBIM Ltd. website (opens up in new tab)"><strong>ParaBIM Ltd.</strong></a>
@@ -164,4 +164,5 @@
         </footer>
     </div>
 </body>
+
 </html>
