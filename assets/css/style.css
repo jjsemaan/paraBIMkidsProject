@@ -247,7 +247,6 @@ a {
     text-decoration: none;
     border: none;
     padding: 10px 20px;
-    margin-right: 10px;
     margin-bottom: 50px;
     cursor: pointer;
     border-radius: 5px;
@@ -257,9 +256,10 @@ a {
     left: 50%;
     transform: translateX(-50%);
     font-family: 'Roboto Mono', sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     text-align: center;
-    font-size: 100%;
+    font-size: 18px;
+    width: 150px;
 }
 
 /* reading list*/
