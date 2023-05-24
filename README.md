@@ -14,17 +14,6 @@
 
 ------------------------------------------------------------------
 
-## Table of contents
-
- 1. [Features](#features)
-    1. [Desktop and Mobile Devices](#desktop-and-mobile-devices)
-    2. [Home Page](#home)
-    3. [Modules Page](#modules)
-    4. [Contact Page](#contact)
- 2. [Existing Features](#existing-features)
- 3. [Features Left to Implement](#features-left-to-implement)
- 4. [Technology](#technology)
-
 ## Features
 
 ### Desktop and Mobile Devices
@@ -109,7 +98,7 @@
 * A future addition should include resoures and sample gaming codes developed by students.
 * A login feature should be added for students to access resources.
 
-### Technology
+## Technology
 
 > HTML (Hyper Text Markup Language) <br> Used for creating the structure and content of web pages, providing a framework for organising code for a website.
 
@@ -125,3 +114,29 @@
 > Google Maps API <br> A tool that allows developers to integrate interactive google maps into their applications.
 
 > Microsoft Designer <br> A user interface design tool that helps create visually appealing and intuitive images and photos.
+
+##Testing
+
+> Testing was performed on two main browsers Microsoft Edge and Google Chrome
+
+### Testing Phase
+
+**Testing for links and Form**
+| Test |Outcome  |
+|--|--|
+|All links on horizontal navigation menu lead to their correct pages| Pass  |
+|All links on burger menu lead to their correct pages| Pass  |
+|Modules button leads to modules page| Pass
+|Contact button leads to contact form on contact us page| Pass
+|Footer social links all lead to their respective social media sites |Pass|
+|Contact form submits when all criteria is filled correctly| Pass  |
+|Contact button leads to contact form on contact us page| Pass
+|Popup window resets the form post submission| Pass|
+|Form Validation presents when incorrect input type is entered |Pass|
+
+
+**Testing for responsiveness**
+| Test |Outcome  |
+|--|--|
+|Home page, about, portfolio, contact us displays correctly on screens larger than 950px|Pass |
+|Home page, about, portfolio, contact us displays correctly on screens smaller than 950px |Pass  
