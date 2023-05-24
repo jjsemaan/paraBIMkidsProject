@@ -1,33 +1,33 @@
-# Kids Coding Club
+Kids Coding Club
 
-## A fictional website built for an after school kids coding club in Dublin, Ireland
+A fictional website built for an after school kids coding club in Dublin, Ireland
 
-### PP1 Jalal Semaan
+PP1 Jalal Semaan
 
 ![am I responsive screenshot](assets/images/amiresponsive.png)
 
-## **[Live site](https://jjsemaan.github.io/paraBIMkidsProject/)**
+**[Live site](https://jjsemaan.github.io/paraBIMkidsProject/)**
 
 ------------------------------------------------------------------
 
-## **[Repository](https://github.com/jjsemaan/paraBIMkidsProject/tree/main)**
+**[Repository](https://github.com/jjsemaan/paraBIMkidsProject/tree/main)**
 
 ------------------------------------------------------------------
+Table of contents
 
-## Table of contents
-
- 1. [Features](#features)
-    1. [Desktop and Mobile Devices](#desktop-and-mobile-devices)
-    2. [Home Page](#home)
-    3. [Modules Page](#modules)
-    4. [Contact Page](#contact)
- 2. [Technology used](#technology)
- 3. [Testing](#testing)  
- 4. [Bugs](#bugs)  
- 5. [Deployment](#deployment)
- 6. [Credits](#credits)
- 7. [Content](#content)  
- 8.  [Acknowledgements](#acknowledgements)  
+- [Features](#features)
+  - [Desktop and Mobile Devices](#desktop-and-mobile-devices)
+  - [Home](#home)
+  - [Modules](#modules)
+  - [Contact](#contact)
+- [Existing Features](#existing-features)
+- [Features Left to Implement](#features-left-to-implement)
+- [Technology](#technology)
+- [Testing](#testing)
+  - [Testing for links and Form](#testing-for-links-and-form)
+  - [Testing for responsiveness](#testing-for-responsiveness)
+  - [Testing on various devices](#testing-on-various-devices)
+  - [Google Lighthouse Testing](#google-lighthouse-testing)
 
 
 ## Features
@@ -85,11 +85,15 @@
 * Contact Page
   * This page provides a contact form and a google maps location allowing site visitors to reach out to the club with any queries.
   * Contact form includes the following fields:
-    * First Name - (required - type=text)
-    * Last Name - (required - type=email)
-    * email - (required - type=email)
-    * phone - (required - type=tel)
-    * message - (required - type=textarea)
+
+|Field |Required  |Type  |
+|--|--|--|
+|First Name | Yes | text |
+|Last Name | Yes | text |
+|Email | Yes | email |
+|Phone | No | tel |
+|Message | Yes | textarea |
+
   * Once all required fields are completed and the form is submitted, a popup with an 'Ok' button will appear informing that someone will get in touch the soonest possible. When clicked, the 'ok' button will hide the popup and reset the form.
   * The google maps location provides the accurate loction and of the club.
 
@@ -136,10 +140,10 @@
 
 ## Testing
 
-* Testing was performed on two main browsers Microsoft Edge and Google Chrome
+* Testing was performed by developer Jalal Semaan on two main browsers Microsoft Edge and Google Chrome.
 
 
-_Testing for links and Form_
+### Testing for links and Form
 
 | Test |Outcome  |
 |--|--|
@@ -153,8 +157,7 @@ _Testing for links and Form_
 |Popup window resets the form post submission| Pass|
 |Form Validation presents when incorrect input type is entered |Pass|
 
-
-_Testing for responsiveness_
+### Testing for responsiveness
 
 | Test |Outcome  |
 |--|--|
@@ -165,7 +168,7 @@ _Testing for responsiveness_
 |Module descriptor cards flex as expected in modules page on screens lower than 1525px| Pass |
 |Contact form and google map flex successfully on screens lower than 800px| Pass |
 
-_Testing various devices_
+### Testing on various devices
 
 |Device Name |Dimensions  |Outcome  |
 |--|--|--|
@@ -182,3 +185,7 @@ _Testing various devices_
 |Samdung Galaxy A51/71 | 412 x 914 | Pass |
 |Nest Hub | 1204 x 600 | Pass |
 |Nest Hub Max | 1280 x 800 | Pass |
+
+### Google Lighthouse Testing
+
+![Modules Page](assets/images/lighthouse-testing.jpg)
