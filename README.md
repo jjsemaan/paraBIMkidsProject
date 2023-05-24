@@ -17,12 +17,12 @@
 ## Table of contents
 
  1. [Features](#features)
-    1. [Desktop and mobile devices](#desktop)
+    1. [Desktop and mobile devices](#)
     2. [Home Page](#home)
     3. [Modules Page](#modules)
     4. [Contact Page](#contact)
- 2. [Other Features](#other)
- 3. [Features Left to Implement](#Features Left to Implement)
+ 2. [Existing Features](#existing-features)
+ 3. [Features Left to Implement](#features-left-to-implement)
 
 ## Features
 
@@ -89,10 +89,10 @@
 
 ![Contact Page](assets/images/contactpage.jpg)
 
-## Other Features
+## Existing Features
 
 * Website is fully responsive and works of all devices.
-* The main image inthe home page is implemented in two versions, a wider version for screen width 800px and over and a square version of the same image for screen widths less than 800px.
+* The main image inthe home page is implemented in two versions, a wider version for screen width 800px and over and a square   version of the same image for screen widths less than 800px.
 * The responsive slogan 'Lets code for fun together!' is responsive and disaapears when the burger menu is clicked to make space for the menu items.
 * The active page remains displayed beside the burger menu to keep site visitors aware of the current active page.
 * The coding languages ribbon wraps up into two columns in smaller screens to maintain its visibility.
