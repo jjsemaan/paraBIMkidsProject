@@ -101,5 +101,9 @@
 
 ## Features Left to Implement
 
-* CSS framework to used in order to improve performance
-* An application form for each module.
+* CSS framework to used in order to improve performance affecting Large Cummulative Layout Shifts CLS.
+* An application form for each module could be added to make queries more specific.
+* More info can be added about after school locations and availability and reservations.
+* Instructors' biographies can be added on a separate page.
+* A future addition should include resoures and sample gaming codes developed by students.
+* A login feature should be added for students to access resources.
