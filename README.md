@@ -29,6 +29,7 @@ Table of contents
   - [Testing on various devices](#testing-on-various-devices)
   - [Google Lighthouse Testing](#google-lighthouse-testing)
   - [HTML and CSS Validation](#html-and-css-validation)
+- [Bugs](#bugs)
 
 
 ## Features
@@ -196,4 +197,29 @@ Table of contents
 * HTML and CSS successfully passed W3C validation with no errors using the URI method. Project URI "https://jjsemaan.github.io/paraBIMkidsProject/".
 
 ![Modules Page](assets/images/validation.png)
+
+## Bugs
+
+> Reverse order of menu pages when switching to burger menu. **fixed** 
+> <br>
+
+> Slogan was overlapping other elements when burger menu was open for navigation. **fixed**
+> <br>
+
+> Text about Python module was overlapping the below enroll button at lower screen widths. **fixed**
+> <br>
+
+> Books gallery was not flexing when screen width changed. **fixed**
+> <br>
+
+> Google map was not scaling to full width. **fixed**
+><br>
+
+> Footer was not sticking to the bottom of the screen. **fixed**
+> <br>
+
+> Errors from misuse of aria-labels in html code. **fixed**
+> <br>
+
+> Errors from stray script elements in html code. **fixed**
 
