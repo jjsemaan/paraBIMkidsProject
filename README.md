@@ -17,14 +17,12 @@
 ## Table of contents
 
  1. [Features](#features)
- 2. [Features Left to Implement](#left)  
- 2. [Technology used](#tech)
- 3. [Testing](#testing)  
- 4. [Bugs](#bugs)  
- 5. [Deployment](#deployment)
- 6. [Credits](#credits)
- 7. [Content](#content)  
- 8. [Acknowledgements](#acknowledgements)  
+    1. [Desktop and mobile devices](#Desktop and mobile devices)
+    2. [Home Page](#home)
+    3. [Modules Page](#modules)
+    4. [Contact Page](#contact)
+ 2. [Other Features](#Other Features)
+ 3. [Features Left to Implement](#Features Left to Implement)
 
 ## Features
 
@@ -58,12 +56,16 @@
 
 ![404](assets/images/404page.jpg)
 
+### Home
+
 * Home Page
   * This page opens up with an image of kids sat in a classroom with a laptop to resemble a collaborative coding experience.
   * Below the image is a ribbon that displays taught coding languages and their corresponding industry icons.
   * Below the ribbon a brief note is provided to explain the club ethos and a button that takes the site visitor to the modules page.
 
 ![Home Page](assets/images/homepage.jpg)
+
+### Modules
 
 * Modules Page
   * This page provides info on coding languages regarded as separate learning modules and an enroll button for each module.
@@ -72,47 +74,29 @@
 
 ![Modules Page](assets/images/modulepage.jpg)
 
+### Contact
+
 * Contact Page
-  * This page provides a contact form allowing site visitors to reach out to the club with any queries.
+  * This page provides a contact form and a google maps location allowing site visitors to reach out to the club with any queries.
   * Contact form includes the following fields:
     * First Name - (required - type=text)
     * Last Name - (required - type=email)
-    * email
+    * email - (required - type=email)
+    * phone - (required - type=tel)
+    * message - (required - type=textarea)
+  * Once all required fields are completed and the form is submitted, a popup with an 'Ok' button will appear informing that someone will get in touch the soonest possible. When clicked, the 'ok' button will hide the popup and reset the form.
+  * The google maps location provides the accurate loction and of the club.
 
-Welcome,
+![Contact Page](assets/images/contactpage.jpg)
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Other Features
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **March 3rd, 2023**
+* Website is fully responsive and works of all devices.
+* The main image inthe home page is implemented in two versions, a wider version for screen width 800px and over and a square version of the same image for screen widths less than 800px.
+* The responsive slogan 'Lets code for fun together!' is responsive and disaapears when the burger menu is clicked to make space for the menu items.
+* The active page remains displayed beside the burger menu to keep site visitors aware of the current active page.
+* The coding languages ribbon wraps up into two columns in smaller screens to maintain its visibility.
+* The modules on the modules page are responsive and can wrap up to a single column appearing on top of one another in smaller screens.
+* The books gallery is responsive and can wrap up to a single column with book covers appearing on top of one another in smaller screens.
 
-## Codeanywhere Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
-
-`python3 -m http.server`
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
-
-`http_server`
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
+## Features Left to Implement
