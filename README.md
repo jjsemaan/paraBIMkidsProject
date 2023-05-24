@@ -18,15 +18,15 @@
 
 ## Table of contents
 
- 1. [Features](#features)  
+ 1. [Features](#features)
  2. [Features Left to Implement](#left)  
- 3. [Technology used](#tech)
- 4. [Testing](#testing)  
- 5. [Bugs](#bugs)  
- 6. [Deployment](#deployment)
- 7. [Credits](#credits)
- 8. [Content](#content)  
- 9. [Acknowledgements](#acknowledgements)  
+ 2. [Technology used](#tech)
+ 3. [Testing](#testing)  
+ 4. [Bugs](#bugs)  
+ 5. [Deployment](#deployment)
+ 6. [Credits](#credits)
+ 7. [Content](#content)  
+ 8.  [Acknowledgements](#acknowledgements)  
 
 ## Features
 
@@ -48,14 +48,14 @@
     3. Scroll-to-top button.
     4. Copyright info with link to the developer's website.
 
-![Nav Menu](assets/images/footer.jpg)
+![Footer](assets/images/footer.jpg)
 
 
 
 * Favicon
   * This will appear site-wide on the top left corner of the website tab in any browser to enable easy identification especially when multiple tabs are open.
 
-![Nav Menu](assets/images/favicon.jpg)
+![Favicon](assets/images/favicon.jpg)
 
 
 
@@ -65,8 +65,22 @@
   * The footer remains enabled in the 404 page with the telephone link for further assistance.
 
 
-![Nav Menu](assets/images/404page.jpg)
+![404](assets/images/404page.jpg)
 
+
+
+* Home Page
+  * This page opens up with an image of kids sat in a classroom with a laptop to resemble a collaborative coding experience.
+  * Below the image is a ribbon that displays taught coding languages and their corresponding industry icons.
+  * Below the ribbon a brief note is provided to explain the club ethos and a button that takes the site visitor to the modules page.
+
+
+
+![Home Page](assets/images/homepage.jpg)
+
+
+* Modules Page
+  * This page open
 
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
