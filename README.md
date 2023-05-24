@@ -32,6 +32,7 @@ Table of contents
 - [Bugs](#bugs)
 - [Deployment](#deployment)
 - [Credits](#credits)
+- [Acknowledgements](#acknowledgements)
 
 
 ## Features
@@ -250,3 +251,10 @@ Table of contents
 > <br>
 
 > Maps.ie generated google maps iframe "https://www.maps.ie/"
+
+## Acknowledgements
+
+
+> Daisy McGirr
+> 
+> My mentor who provided me with constructive feedback and support throughout the duration of this project.
