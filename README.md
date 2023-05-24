@@ -37,14 +37,26 @@
   * This will allow users to navigate intuitively between the pages without any interruptions on any size device.
   * See below images of navigation menu.
 
+![Nav Menu](assets/images/navigation.jpg)
+
+
+
 * Footer
-  * Contains:
-    1. A quick Call Us telephone link that opens up the default calling software on the active device. 
+  * Allows site visitors to make a quick enquiry call, access further club info on social media and link to the website developers.
+    1. A quick Call Us telephone link that opens up the default calling software on the active device.
     2. Social media icons that link to the club's pages on facebook, twitter, youtube and instagram.
     3. Scroll-to-top button.
     4. Copyright info with link to the developer's website.
 
-![Nav Menu](assets/images/navigation.jpg)
+![Nav Menu](assets/images/footer.jpg)
+
+
+
+* Favicon
+  * This will appear site-wide on the top left corner of the website tab in any browser to enable easy identification especially when multiple tabs are open.
+
+![Nav Menu](assets/images/favicon.jpg)
+
 
 
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
