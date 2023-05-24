@@ -14,6 +14,22 @@
 
 ------------------------------------------------------------------
 
+## Table of contents
+
+ 1. [Features](#features)
+    1. [Desktop and Mobile Devices](#desktop-and-mobile-devices)
+    2. [Home Page](#home)
+    3. [Modules Page](#modules)
+    4. [Contact Page](#contact)
+ 2. [Technology used](#technology)
+ 3. [Testing](#testing)  
+ 4. [Bugs](#bugs)  
+ 5. [Deployment](#deployment)
+ 6. [Credits](#credits)
+ 7. [Content](#content)  
+ 8.  [Acknowledgements](#acknowledgements)  
+
+
 ## Features
 
 ### Desktop and Mobile Devices
@@ -91,12 +107,15 @@
 
 ## Features Left to Implement
 
+
 * CSS framework to used in order to improve performance affecting Large Cummulative Layout Shifts CLS.
 * An application form for each module could be added to make queries more specific.
 * More info can be added about after school locations and availability and reservations.
 * Instructors' biographies can be added on a separate page.
 * A future addition should include resoures and sample gaming codes developed by students.
 * A login feature should be added for students to access resources.
+
+<a name="tech"></a>
 
 ## Technology
 
@@ -115,13 +134,13 @@
 
 > Microsoft Designer <br> A user interface design tool that helps create visually appealing and intuitive images and photos.
 
-##Testing
+## Testing
 
-> Testing was performed on two main browsers Microsoft Edge and Google Chrome
+* Testing was performed on two main browsers Microsoft Edge and Google Chrome
 
-### Testing Phase
 
-**Testing for links and Form**
+_Testing for links and Form_
+
 | Test |Outcome  |
 |--|--|
 |All links on horizontal navigation menu lead to their correct pages| Pass  |
@@ -135,7 +154,8 @@
 |Form Validation presents when incorrect input type is entered |Pass|
 
 
-**Testing for responsiveness**
+_Testing for responsiveness_
+
 | Test |Outcome  |
 |--|--|
 |Home page, modules, and contact display correctly on screens larger than 600px| Pass |
@@ -144,3 +164,21 @@
 |Modules ribbon in home page wraps successfully on screens lower than 800px| Pass |
 |Module descriptor cards flex as expected in modules page on screens lower than 1525px| Pass |
 |Contact form and google map flex successfully on screens lower than 800px| Pass |
+
+_Testing various devices_
+
+|Device Name |Dimensions  |Outcome  |
+|--|--|--|
+|iPhone SE | 375 x 667 | Pass |
+|iPhone XR | 414 x 896 | Pass |
+|iPhone 12 pro | 390 x 844 | Pass |
+|Samsung Galaxy S8+ | 360 x 740 | Pass |
+|Samdung Galaxy S20 Ultra | 412 x 915 | Pass |
+|iPad Air | 820 x 1180 | Pass |
+|iPad Mini | 768 x 1024 | Pass |
+|Surface Pro 7 | 912 x 1368 | Pass |
+|Surface Duo | 540 x 720 | Pass |
+|Galaxy Fold | 280 x 653 | Pass |
+|Samdung Galaxy A51/71 | 412 x 914 | Pass |
+|Nest Hub | 1204 x 600 | Pass |
+|Nest Hub Max | 1280 x 800 | Pass |
