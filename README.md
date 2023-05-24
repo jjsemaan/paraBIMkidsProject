@@ -17,16 +17,17 @@
 ## Table of contents
 
  1. [Features](#features)
-    1. [Desktop and mobile devices](#)
+    1. [Desktop and Mobile Devices](#desktop-and-mobile-devices)
     2. [Home Page](#home)
     3. [Modules Page](#modules)
     4. [Contact Page](#contact)
  2. [Existing Features](#existing-features)
  3. [Features Left to Implement](#features-left-to-implement)
+ 4. [Technology](#technology)
 
 ## Features
 
-### Desktop and mobile devices
+### Desktop and Mobile Devices
 
 * Navigation Menu
   * Contains links to the Home, Modules and Contact pages and will be responsive on all devices in two forms straight horizontal menu and burger menu for mobile devices.
@@ -107,3 +108,20 @@
 * Instructors' biographies can be added on a separate page.
 * A future addition should include resoures and sample gaming codes developed by students.
 * A login feature should be added for students to access resources.
+
+### Technology
+
+> HTML (Hyper Text Markup Language) <br> Used for creating the structure and content of web pages, providing a framework for organising code for a website.
+
+> CSS (Cascading Style Sheets) <br> Commonly used to define the visual appearance and layout of web pages, including colors, fonts, spacing, and positioning.
+  
+> JavaScript <br> A versatile programming language that adds interactivity and dynamic functionality to websites.
+
+> IDE Codeanywhere (Integrated Development Environment) <br> An online IDE that allows developers to code, collaborate, and deploy their projects provided an internet connection.
+
+> Git <br> A version control system that provides both a command-line interface (CLI) and a graphical user interface (GUI) for managing and interacting with repositories.
+> Font Awesome <br> A popular icon library and toolkit that provides a wide range of scalable vector icons that can be easily customised and used in web development projects.
+
+> Google Maps API <br> A tool that allows developers to integrate interactive google maps into their applications.
+
+> Microsoft Designer <br> A user interface design tool that helps create visually appealing and intuitive images and photos.
