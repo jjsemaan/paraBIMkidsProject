@@ -30,12 +30,19 @@
 
 ## Features
 
-### Site wide
+### Desktop and mobile devices
 
 * Navigation Menu
   * Contains links to the Home, Modules and Contact pages and will be responsive on all devices in two forms straight horizontal menu and burger menu for mobile devices.
   * This will allow users to navigate intuitively between the pages without any interruptions on any size device.
   * See below images of navigation menu.
+
+* Footer
+  * Contains:
+    1. A quick Call Us telephone link that opens up the default calling software on the active device. 
+    2. Social media icons that link to the club's pages on facebook, twitter, youtube and instagram.
+    3. Scroll-to-top button.
+    4. Copyright info with link to the developer's website.
 
 ![Nav Menu](assets/images/navigation.jpg)
 
