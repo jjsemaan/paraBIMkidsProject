@@ -138,5 +138,9 @@
 **Testing for responsiveness**
 | Test |Outcome  |
 |--|--|
-|Home page, about, portfolio, contact us displays correctly on screens larger than 950px|Pass |
-|Home page, about, portfolio, contact us displays correctly on screens smaller than 950px |Pass  
+|Home page, modules, and contact display correctly on screens larger than 600px| Pass |
+|Home page, modules, and contact display correctly on screens lower than 600px| Pass |
+|Minimum screen width of 235px reach with no issues| Pass |
+|Modules ribbon in home page wraps successfully on screens lower than 800px| Pass |
+|Module descriptor cards flex as expected in modules page on screens lower than 1525px| Pass |
+|Contact form and google map flex successfully on screens lower than 800px| Pass |
