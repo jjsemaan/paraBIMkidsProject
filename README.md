@@ -17,11 +17,11 @@
 ## Table of contents
 
  1. [Features](#features)
-    1. [Desktop and mobile devices](#Desktop and mobile devices)
+    1. [Desktop and mobile devices](#desktop)
     2. [Home Page](#home)
     3. [Modules Page](#modules)
     4. [Contact Page](#contact)
- 2. [Other Features](#Other Features)
+ 2. [Other Features](#other)
  3. [Features Left to Implement](#Features Left to Implement)
 
 ## Features
@@ -100,3 +100,6 @@
 * The books gallery is responsive and can wrap up to a single column with book covers appearing on top of one another in smaller screens.
 
 ## Features Left to Implement
+
+* CSS framework to used in order to improve performance
+* An application form for each module.
