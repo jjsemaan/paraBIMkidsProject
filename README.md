@@ -59,6 +59,15 @@
 
 
 
+* 404 Page
+  * The 404 page will appear if a site visitor enters a broken link.
+  * This page includes a home button that will take the visitor back to the home page.
+  * The footer remains enabled in the 404 page with the telephone link for further assistance.
+
+
+![Nav Menu](assets/images/404page.jpg)
+
+
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 Welcome,
