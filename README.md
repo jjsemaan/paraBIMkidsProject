@@ -28,6 +28,7 @@ Table of contents
   - [Testing for responsiveness](#testing-for-responsiveness)
   - [Testing on various devices](#testing-on-various-devices)
   - [Google Lighthouse Testing](#google-lighthouse-testing)
+  - [HTML and CSS Validation](#html-and-css-validation)
 
 
 ## Features
@@ -189,3 +190,10 @@ Table of contents
 ### Google Lighthouse Testing
 
 ![Modules Page](assets/images/lighthouse-testing.jpg)
+
+### HTML and CSS Validation
+
+* HTML and CSS successfully passed W3C validation with no errors using the URI method. Project URI "https://jjsemaan.github.io/paraBIMkidsProject/".
+
+![Modules Page](assets/images/validation.png)
+
